@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Heartfluencer</title>
+<style>
+    @import url(menu.css);
+    @import url(home.css);
+</style>
+</head>
+<body>
+    <img src="media/logo.png">
+    <span>Hearfluencer</span>
+    <span id="login"><a href="#">로그인</a></span>
+    <span id="bar">|</span>
+    <span id="join"><a href="#">회원가입</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="#">홈</a></li>
+            <li><a href="#">사업소개</a></li>
+            <li><a href="#">펀딩</a></li>
+            <li><a href="#">이 메뉴 원해요!</a></li>
+            <li><a href="#">마이페이지</a></li>
+        </ul>
+    </nav>
+    <h2>선한 영향력 매장 찾기</h2>
+    <div id="search">
+        <div id="select">
+            <a href="#"><pre onclick="select_area();">시/도      ▼</pre></a>
+            <ul id="list" style="display: none;">
+                <li class="item">서울특별시</li>
+                <li class="item">경기도</li>
+                <li class="item">인천광역시</li>
+                <li class="item">강원도</li>
+                <li class="item">충청북도</li>
+                <li class="item">충청남도</li>
+                <li class="item">대전광역시</li>
+                <li class="item">세종특별자치시</li>
+                <li class="item">광주광역시</li>
+                <li class="item">전라북도</li>
+                <li class="item">전라남도</li>
+                <li class="item">경상북도</li>
+                <li class="item">경상남도</li>
+                <li class="item">대구광역시</li>
+                <li class="item">부산광역시</li>
+                <li class="item">울산광역시</li>
+                <li class="item">제주특별자치도</li>
+            </ul>
+        </div>
+        <input type="text" placeholder="지역 또는 매장명을 입력하세요">
+        <a href="#"><img id="button" src="media/search.png"></a>
+    </div>
+    <hr>
+</body>
+</html>

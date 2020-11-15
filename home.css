@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+    color: darkgreen;
+}
+div {
+    text-align: center;
+}
+#select {
+    display: inline-block;
+}
+div a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    width: fit-content;
+}
+div input {
+    margin-left: 20px;
+    display: inline-block;
+    width: 240px;
+}
+#button {
+    margin-left: 10px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
