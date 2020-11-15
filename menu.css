@@ -1,0 +1,60 @@
+img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+span {
+    margin-left: 10px;
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: hotpink;
+}
+#login a {
+    margin-left: 800px;
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration : none;
+    font-weight: bold;
+    font-size: 16px;
+}
+#bar {
+    color: black;
+    font-size: 16px;
+}
+#join a {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+#login a:hover, #join a:hover {
+    color: orange;
+}
+#menubar {
+    background: rgb(191, 240, 95);
+}
+#menubar ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#menubar ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px 30px;
+    margin: 6px;
+}
+#menubar ul li a {
+	color: black;
+  	text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+#menubar ul li a:hover {
+ 	color: darkgreen; 
+}
