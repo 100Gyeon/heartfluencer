@@ -8,13 +8,6 @@ div {
 #select {
     display: inline-block;
 }
-div a {
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    width: fit-content;
-}
 div input {
     margin-left: 20px;
     display: inline-block;
@@ -29,4 +22,20 @@ div input {
 hr {
     margin-left: 20px;
     margin-right: 20px;
+}
+div.pagination a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(226, 226, 226);
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+div.pagination a:hover {
+    background-color: rgb(191, 240, 95);
+    color: white;
 }
