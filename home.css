@@ -23,6 +23,44 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+div > h2 {
+    text-align: left;
+    margin-right: 100px;
+    color: black;
+}
+td.td1 p {
+    text-align: left;
+    margin-right: 100px;
+}
+td.td1 strong {
+    display: inline-block;
+    font-size: 18px;
+    color: darkgreen;
+}
+td.td2 div {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+td.td2 button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: rgb(214, 214, 214);
+    
+}
+td.td3 img {
+    width: 260px;
+    height: 180px;
+}
+
 div.pagination a {
     font-size: 18px;
     text-decoration: none;
