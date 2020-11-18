@@ -3,7 +3,7 @@ img {
     height: 80px;
     display: inline-block;
 }
-span {
+#maintxt {
     margin-left: 10px;
     position: relative;
     bottom: 30px;
@@ -12,6 +12,7 @@ span {
     color: hotpink;
 }
 #login a {
+    bottom: 30px;
     margin-left: 800px;
     position: relative;
     display: inline-block;
@@ -21,10 +22,14 @@ span {
     font-size: 16px;
 }
 #bar {
+    bottom: 30px;
+    display: inline-block;
+    position: relative;
     color: black;
     font-size: 16px;
 }
 #join a {
+    bottom: 30px;
     position: relative;
     display: inline-block;
     color: black;
