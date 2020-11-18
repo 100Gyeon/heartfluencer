@@ -17,7 +17,7 @@ img {
     position: relative;
     display: inline-block;
     color: black;
-    text-decoration : none;
+    text-decoration: none;
     font-weight: bold;
     font-size: 16px;
 }
@@ -44,14 +44,14 @@ img {
     background: rgb(191, 240, 95);
 }
 #menubar ul {
-	margin: 0;
-	padding: 0;
-	width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 #menubar ul li {
-	display: inline-block;
-	list-style-type: none;
-	padding: 0px 30px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
     margin: 6px;
 }
 #menubar ul li a {
