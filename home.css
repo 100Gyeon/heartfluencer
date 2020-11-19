@@ -27,15 +27,22 @@ hr {
 table {
     margin-left: auto;
     margin-right: auto;
-    border-collapse: separate;
-    border-spacing: 0 20px;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    border: 3px solid rgb(196, 196, 196);
+}
+tr:nth-child(odd):hover {
+    border : 3px solid darkgreen;
 }
 div > h2 {
+    margin-left: 30px;
     text-align: left;
     margin-right: 100px;
     color: black;
 }
 td.td1 p {
+    margin-left: 30px;
     text-align: left;
     margin-right: 100px;
 }
@@ -57,6 +64,7 @@ td.td2 button {
     
 }
 td.td3 img {
+    margin-left: 20px;
     width: 260px;
     height: 180px;
 }
