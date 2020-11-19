@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Heartfluencer</title>
-<style>
-    @import url(menu.css);
-    @import url(home.css);
-</style>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <style>
+        @import url(menu.css);
+        @import url(home.css);
+    </style>
 </head>
+
 <body>
     <img src="media/logo.png">
     <span id="maintxt">Heartfluencer</span>
@@ -16,11 +18,11 @@
     <span id="join"><a href="#">회원가입</a></span>
     <nav id="menubar">
         <ul>
-            <li><a href="#">홈</a></li>
-            <li><a href="#">사업소개</a></li>
-            <li><a href="#">펀딩</a></li>
-            <li><a href="#">이 메뉴 원해요!</a></li>
-            <li><a href="#">마이페이지</a></li>
+            <li><a href="home.html">홈</a></li>
+            <li><a href="enterprise.html">사업소개</a></li>
+            <li><a href="funding.html">펀딩</a></li>
+            <li><a href="wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="mypage.html">마이페이지</a></li>
         </ul>
     </nav>
     <h2>선한 영향력 매장 찾기</h2>
@@ -67,11 +69,11 @@
                 <td class="td2">
                     <div>
                         <img src="media/empty_heart.png"><br>
-                        <button id="more">상세보기</button><br>
+                        <button id="more" onclick="location.href = 'detail_1.html'">상세보기</button><br>
                         <button id="review">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
                     </div>
                 </td>
-                <td class="td3"><img src="media/realpasta.png"></td>
+                <td class="td3"><img src="media/real_pasta.png"></td>
             </tr>
             <tr>
                 <td class="td1">&nbsp;</td>
@@ -90,11 +92,34 @@
                 <td class="td2">
                     <div>
                         <img src="media/empty_heart.png"><br>
-                        <button id="more">상세보기</button><br>
+                        <button id="more" onclick="location.href = 'detail_2.html'">상세보기</button><br>
                         <button id="review">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
                     </div>
                 </td>
-                <td class="td3"><img src="media/hairshop.jpg"></td>
+                <td class="td3"><img src="media/hair_shop.jpg"></td>
+            </tr>
+            <tr>
+                <td class="td1">&nbsp;</td>
+                <td class="td2">&nbsp;</td>
+                <td class="td3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="td1">
+                    <div>
+                        <h2>착한초밥</h2>
+                        <p><strong>후원안내 : 카드소지자 본인만 전메뉴 무상제공</strong></p>
+                        <p>주소 : 서울시 동대문구 왕산로 272</p>
+                        <p>전화번호 : 02-957-1219 / 010-2635-6947</p>
+                    </div>
+                </td>
+                <td class="td2">
+                    <div>
+                        <img src="media/empty_heart.png"><br>
+                        <button id="more" onclick="location.href = 'detail_3.html'">상세보기</button><br>
+                        <button id="review">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
+                    </div>
+                </td>
+                <td class="td3"><img src="media/sushi.jpeg"></td>
             </tr>
         </tbody>
     </table>
@@ -112,4 +137,5 @@
         </div>
     </div>
 </body>
+
 </html>
