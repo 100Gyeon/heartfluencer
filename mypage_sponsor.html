@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <style>
+        @import url(menu.css);
+        @import url(mypage.css);
+    </style>
+    <script>
+        function howLongDays() { //시스템 상 날짜 불러오는 함수
+                      var clock = document.getElementById("");  // 출력할 장소
+                      var now = new Date();      // 현재시간
+                      var nowTime = now.getFullYear() - 2020 + "." + (now.getMonth()+1) - 10 + "." + now.getDate() - 26 + ".";
+                      clock.innerHTML = nowTime; // 현재시간을 출력
+        }
+        window.onload = function() {   // 페이지가 로딩되면 실행
+                      howLongDays();
+        }
+    </script>
+</head>
+<body>
+    <img id = "main_logo" src="media/logo.png">
+    <span id="maintxt">Heartfluencer</span>
+    <span id="login"><a href="#">로그인</a></span>
+    <span id="bar">|</span>
+    <span id="join"><a href="#">회원가입</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="home.html">홈</a></li>
+            <li><a href="enterprise.html">사업소개</a></li>
+            <li><a href="funding.html">펀딩</a></li>
+            <li><a href="wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+    <h1>마이페이지</h1>
+    <p>
+        <img id = "my_img" src="media/before_upload_img.png"; width = "360"; height = "360"; align = "left";>
+        <h1><span id = "green_text">김하트</span> 님 좋은 하루 보내셨나요? :)</h1> <br>
+        <h2>닉네임 : 22.6℃</h2>
+        <h3>LV. 5 우수후원자</h3> <br>
+
+            다음 레벨까지 <strong>50,000 </strong>원 남았습니다.
+            <!--날짜를 시스템 날짜로 불러와서 계산하기-->
+            <h3>가입일 : <span id = "green_text">2020.10.26</span> | <span id = "green_text">196 </span>일째 함께해 주셔서 감사합니다.</h3>
+<br>
+<br>
+    </p>
+            <button id="btn_img">사진변경</button><br><br><br>
+            <button id="green_btn" onclick="location.href=''">개인정보 수정</button>    <!--원하는 링크 연결-->
+            <button id="green_btn" onclick="location.href=''">펀딩 내역 조회</button> 
+            <button id="green_btn" onclick="location.href=''">리뷰 내역 조회</button>
+</body>
+</html>
