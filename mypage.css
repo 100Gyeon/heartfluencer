@@ -1,0 +1,38 @@
+#btn_img {  
+    margin-left: 150px;
+    font-size: 16px;
+}
+
+#green_btn {
+    margin-left: 100px;
+    background-color: rgb(122, 204, 46);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+}
+
+#orange_btn {
+    margin-left: 100px;
+    background-color: rgb(255, 145, 0) ;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+}
+
+#green_text{
+    color :  rgb(122, 204, 46);
+}
+
+#orange_text{
+    color : rgb(255, 145, 0) ;
+}
