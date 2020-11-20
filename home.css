@@ -2,7 +2,7 @@ h2 {
     text-align: center;
     color: darkgreen;
 }
-div {
+#search {
     text-align: center;
 }
 #select {
@@ -23,11 +23,12 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
+    border-spacing: 0px;
+    padding: 0px;
 }
 tr:nth-child(odd) {
     border: 3px solid rgb(196, 196, 196);
@@ -35,25 +36,40 @@ tr:nth-child(odd) {
 tr:nth-child(odd):hover {
     border : 3px solid darkgreen;
 }
-div > h2 {
+#ic_shop {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
     margin-left: 30px;
-    text-align: left;
+    vertical-align: middle;
+}
+div > h2 {
+    display: inline;
+    margin-left: 14px;
     margin-right: 100px;
+    text-align: left;
+    vertical-align: bottom;
     color: black;
 }
 td.td1 p {
-    margin-left: 30px;
     text-align: left;
+    margin-left: 30px;
     margin-right: 100px;
 }
 td.td1 strong {
     display: inline-block;
     font-size: 18px;
     color: darkgreen;
+    margin-top: 6px;
 }
 td.td2 div {
     margin-left: 30px;
     margin-right: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
 }
 td.td2 button {
     margin-left: auto;
@@ -61,19 +77,25 @@ td.td2 button {
     margin-top: 10px;
     border-radius: 20px;
     border-color: rgb(214, 214, 214);
-    
 }
 td.td3 img {
     margin-left: 20px;
     width: 260px;
     height: 180px;
+    display: block;
 }
 #empty {
     display: inline-block;
     width: 80px;
     height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.pagination {
+    text-align: center;
 }
 div.pagination a {
+    text-align: center;
     font-size: 18px;
     text-decoration: none;
     color: black;
