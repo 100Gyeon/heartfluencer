@@ -34,7 +34,8 @@ tr:nth-child(odd) {
     border: 3px solid rgb(196, 196, 196);
 }
 tr:nth-child(odd):hover {
-    border : 3px solid darkgreen;
+    border : 3px solid rgb(65, 126, 30);
+    box-shadow: 0 0 20px rgb(191, 240, 95);
 }
 #ic_shop {
     display: inline-block;
