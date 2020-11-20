@@ -68,7 +68,11 @@ td.td3 img {
     width: 260px;
     height: 180px;
 }
-
+#empty {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
 div.pagination a {
     font-size: 18px;
     text-decoration: none;
