@@ -1,0 +1,77 @@
+.view_left, .view_right {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+}
+.view_left {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.view_right {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+.detail_info span {
+    background-color: rgb(90, 202, 90);
+}
+.detail_info h2 {
+    display: inline-block;
+    margin-left: 4px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 32px;
+    margin-bottom: 15px;
+}
+td {
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    text-align: center;
+}
+.colored_cell{
+    background-color: rgb(191, 240, 95);
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.white_cell {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.detail_info h3 {
+    margin: 0 auto;
+    width: 35%;
+}
+.menu {
+    margin-left: 80px;
+}
+figure {
+    display: inline-block;
+    margin: 0px;
+}
+.detail_info img {
+    width: 170px;
+    height: 170px;
+}
+figcaption {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.btn {
+    margin: 0 auto;
+    width: 52%;
+}
+#back_btn, #reserve_btn {
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+}
+#reserve_btn {
+    background-color: rgb(53, 197, 53);
+    color: white;
+}
