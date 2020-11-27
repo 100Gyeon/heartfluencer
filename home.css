@@ -8,6 +8,9 @@ h2 {
 #select {
     display: inline-block;
 }
+option {
+    font-size: 6px;
+}
 div input {
     margin-left: 20px;
     display: inline-block;
