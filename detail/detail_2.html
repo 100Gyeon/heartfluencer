@@ -5,30 +5,30 @@
     <meta charset="UTF-8">
     <title>Heartfluencer</title>
     <style>
-        @import url(menu.css);
+        @import url(/menu.css);
         @import url(detail.css);
     </style>
 </head>
 
 <body>
-    <img id="main_logo" src="media/logo.png">
+    <img id="main_logo" src="/media/logo.png">
     <span id="main_txt">Heartfluencer</span>
     <span id="login"><a href="#">로그인</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
     <span id="join"><a href="#">회원가입</a></span>
     <nav id="menubar">
         <ul>
-            <li><a href="home.html">홈</a></li>
-            <li><a href="enterprise.html">사업소개</a></li>
-            <li><a href="funding.html">펀딩</a></li>
-            <li><a href="wish.html">이 메뉴 원해요!</a></li>
-            <li><a href="mypage.html">마이페이지</a></li>
+            <li><a href="/home.html">홈</a></li>
+            <li><a href="/enterprise.html">사업소개</a></li>
+            <li><a href="/funding.html">펀딩</a></li>
+            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/mypage.html">마이페이지</a></li>
         </ul>
     </nav>
 
     <div class="view_left">
         <!-- 1. 지도 노드 -->
-        <div id="daumRoughmapContainer1605768034051" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+        <div id="daumRoughmapContainer1605767795356" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
         <!-- 2. 설치 스크립트 -->
         <script charset="UTF-8" class="daum_roughmap_loader_script"
@@ -37,8 +37,8 @@
         <!-- 3. 실행 스크립트 -->
         <script charset="UTF-8">
             new daum.roughmap.Lander({
-                "timestamp": "1605768034051",
-                "key": "2325q",
+                "timestamp": "1605767795356",
+                "key": "2325j",
                 "mapWidth": "600",
                 "mapHeight": "450"
             }).render();
@@ -48,44 +48,35 @@
     <div class="view_right">
         <div class="detail_info">
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <h2>리얼파스타 (망원점)</h2>
+            <h2>오래가는 헤어샵</h2>
             <table>
                 <tbody>
                     <tr>
                         <td class="colored_cell">후원안내</td>
-                        <td class="white_cell">카드 소지자 + 동반 1인 전메뉴 제공</td>
+                        <td class="white_cell">카드 소지자 본인 컷트 무료</td>
                     </tr>
                     <tr>
                         <td class="colored_cell">주소</td>
-                        <td class="white_cell">서울시 마포구 동교로 9길 28 1층</td>
+                        <td class="white_cell">서울시 은평구 응암동 579-1</td>
                     </tr>
                     <tr>
                         <td class="colored_cell">전화번호</td>
-                        <td class="white_cell">010-3724-5002</td>
+                        <td class="white_cell">010-9440-9754</td>
                     </tr>
                     <tr>
                         <td class="colored_cell">영업시간</td>
-                        <td class="white_cell">매일 오전 11시 ~ 오후 10시</td>
+                        <td class="white_cell">수요일 휴무</td>
                     </tr>
                     <tr>
                         <td class="colored_cell">기타</td>
-                        <td class="white_cell">포장 가능</td>
+                        <td class="white_cell">예약제 운영</td>
                     </tr>
                 </tbody>
             </table>
-            <h3>[ 대표 메뉴 ]</h3>
-            <div class="menu">
-                <figure>
-                    <img src="media/menu_1-1.png">
-                    <figcaption>차돌 매콤 크림 파스타</figcaption>
-                </figure>
-                <figure>
-                    <img src="media/menu_1-2.png">
-                    <figcaption>간장 치킨 파스타</figcaption>
-                </figure>
-            </div>
+            <h3>[ 원장 ]</h3>
+            <p>뽀기 : "오랜 경력으로 고객님들의 만족도에 최선을 다하겠습니다."</p>
             <div class="btn">
-                <button id="back_btn" onclick="location.href='home.html'">&#60; 돌아가기</button>
+                <button id="back_btn" onclick="location.href='/home.html'">&#60; 돌아가기</button>
                 <button id="reserve_btn" onclick="location.href='#'">예약하기 &#62;</button>
             </div>
         </div>
