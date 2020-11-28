@@ -1,7 +1,7 @@
 #funding_title
 {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-size: 30px;
     background: rgb(229, 230, 178);
 }
@@ -54,39 +54,10 @@
     color: yellowgreen; 
 }
 
-#support_block
+#support_news_detail_title
 {
     text-align: center;
-}
-#support_
-{
-    text-align: center;
-    font-size: 15px;
-}
-#progress
-{
-    width: 60%;
-    height: 50px;
-}
-
-#store_today
-{
-    width: 50%;
-    height: 200px;
-    margin: auto;
-    text-align: center;
-}
-#store_today_list_img
-{
-    display: block;
-    margin: auto;
-    width: auto;
-    height: auto;
-    max-width: 250px;
-    max-height: 250px;
-}
-#store_today_list
-{
-    text-align: left;
-    font-size: 13px;
+    padding: 5px;
+    font-size: 20px;
+    background: rgb(214, 206, 206);
 }
