@@ -1,0 +1,41 @@
+h2 {
+    text-align: center;
+}
+h3 {
+    display: inline-block;
+    margin-left: 40px;
+}
+#write_btn {
+    float: right;
+    margin-right: 40px;
+}
+table {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    border: 2px solid darkgrey;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+th, td {
+    border: 2px solid darkgrey;
+}
+.evaluation {
+    width: 470px;
+}
+.picture {
+    width: 200px;
+    height: 200px;
+}
+#pic {
+    width: 200px;
+    height: 200px;
+    display: block; 
+    margin: 0px auto;
+    padding: 10px;
+}
+.explanation{
+    width: 470px;
+    padding: 10px;
+}

@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <title>Heartfluencer</title>
     <style>
-        @import url(menu.css);
+        @import url(/menu.css);
         @import url(detail.css);
     </style>
 </head>
 
 <body>
-    <img id="main_logo" src="media/logo.png">
-    <span id="main_txt">Heartfluencer</span>
+    <a class="header" href="/home.html">
+        <img id="main_logo" src="/media/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
     <span id="login"><a href="#">로그인</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
     <span id="join"><a href="#">회원가입</a></span>
     <nav id="menubar">
         <ul>
-            <li><a href="home.html">홈</a></li>
-            <li><a href="enterprise.html">사업소개</a></li>
-            <li><a href="funding.html">펀딩</a></li>
-            <li><a href="wish.html">이 메뉴 원해요!</a></li>
-            <li><a href="mypage.html">마이페이지</a></li>
+            <li><a href="/home.html" style="color: darkgreen;">홈</a></li>
+            <li><a href="/enterprise.html">사업소개</a></li>
+            <li><a href="/funding.html">펀딩</a></li>
+            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/mypage.html">마이페이지</a></li>
         </ul>
     </nav>
 
@@ -76,16 +78,16 @@
             <h3>[ 대표 메뉴 ]</h3>
             <div class="menu">
                 <figure>
-                    <img src="media/menu_1-1.png">
+                    <img src="/media/menu_1-1.png">
                     <figcaption>차돌 매콤 크림 파스타</figcaption>
                 </figure>
                 <figure>
-                    <img src="media/menu_1-2.png">
+                    <img src="/media/menu_1-2.png">
                     <figcaption>간장 치킨 파스타</figcaption>
                 </figure>
             </div>
             <div class="btn">
-                <button id="back_btn" onclick="location.href='home.html'">&#60; 돌아가기</button>
+                <button id="back_btn" onclick="location.href='/home.html'">&#60; 돌아가기</button>
                 <button id="reserve_btn" onclick="location.href='#'">예약하기 &#62;</button>
             </div>
         </div>

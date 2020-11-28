@@ -1,0 +1,41 @@
+.box {
+    background-image: url('/media/review.jpg');
+    background-size: 1000px 700px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.space {
+    margin: auto;
+    width: 50%;
+    line-height: 220%;
+    font-size: 18px;
+}
+h2 {
+    text-align: center;
+}
+#explain {
+    height: 200px;
+    width: 540px;
+    font-size: 18px;
+}
+.btn {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#yes_btn, #no_btn {
+    color: white;
+    border: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+#yes_btn {
+    background-color: rgb(54, 172, 54);
+}
+#no_btn {
+    background-color: rgb(88, 88, 88);
+}

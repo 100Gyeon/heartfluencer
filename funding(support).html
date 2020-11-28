@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,17 @@
     <style>
         @import url(menu.css);
         @import url(funding.css);
-        @import url(funding_category.css);
-        #support a:visited{
+        #support a:visited {
             color: yellowgreen;
         }
     </style>
 </head>
+
 <body>
-    <img id="main_logo" src="media/logo.png">
-    <span id="main_txt">Heartfluencer</span>
+    <a class="header" href="home.html">
+        <img id="main_logo" src="media/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
     <span id="login"><a href="#">로그인</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
     <span id="join"><a href="#">회원가입</a></span>
@@ -23,7 +26,7 @@
         <ul>
             <li><a href="home.html">홈</a></li>
             <li><a href="enterprise.html">사업소개</a></li>
-            <li><a href="funding.html">펀딩</a></li>
+            <li><a href="funding.html" style="color: darkgreen;">펀딩</a></li>
             <li><a href="wish.html">이 메뉴 원해요!</a></li>
             <li><a href="mypage.html">마이페이지</a></li>
         </ul>
@@ -44,28 +47,26 @@
             <strong><i>냠냠 베이커리</i></strong>
             <br>
             <progress value="0.56" max="1.0" id="progress"></progress>
-            <br><small>( 현재 560만원 후원 진행중 )</small>&nbsp;&nbsp;
-            <button>펀딩하기</button>
-        </div>    
+            <br><small>( 현재 560만원 후원 진행중 )</small>&nbsp;&nbsp;<button>펀딩하기</button>
+        </div>
         <br><br>
         <div id="support_">
             <strong><i>초밥 좋은날</i></strong>
             <br>
             <progress value="0.37" max="1.0" id="progress"></progress>
-            <br><small>( 현재 376만원 후원 진행중 )</small>&nbsp;&nbsp;
-            <button>펀딩하기</button>
+            <br><small>( 현재 376만원 후원 진행중 )</small>&nbsp;&nbsp;<button>펀딩하기</button>
         </div>
         <br><br>
         <div id="support_">
             <strong><i>마마 떡볶이</i></strong>
             <br>
             <progress value="0.17" max="1.0" id="progress"></progress>
-            <br><small>( 현재 177만원 후원 진행중 )</small>&nbsp;&nbsp;
-            <button>펀딩하기</button>
+            <br><small>( 현재 177만원 후원 진행중 )</small>&nbsp;&nbsp;<button>펀딩하기</button>
         </div>
     </div>
     <br><br><br>
     <hr>
     <h3>후원파트너</h3>
 </body>
+
 </html>

@@ -13,14 +13,16 @@
 </head>
 
 <body>
-    <img id="main_logo" src="media/logo.png">
-    <span id="main_txt">Heartfluencer</span>
+    <a class="header" href="home.html">
+        <img id="main_logo" src="media/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
     <span id="login"><a href="#">로그인</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
     <span id="join"><a href="#">회원가입</a></span>
     <nav id="menubar">
         <ul>
-            <li><a href="home.html">홈</a></li>
+            <li><a href="home.html" style="color: darkgreen;">홈</a></li>
             <li><a href="enterprise.html">사업소개</a></li>
             <li><a href="funding.html">펀딩</a></li>
             <li><a href="wish.html">이 메뉴 원해요!</a></li>
@@ -72,8 +74,8 @@
                 <td class="td2">
                     <div>
                         <input id="empty" type="image" src="media/empty_heart.png" alt="관심 매장 버튼" onclick="changeImg(this)"><br>
-                        <button id="more" onclick="location.href='detail_1.html'">상세보기</button><br>
-                        <button id="review" onclick="location.href='review_1.html'">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
+                        <button id="more" onclick="location.href='detail/detail_1.html'">상세보기</button><br>
+                        <button id="review" onclick="location.href='review_list/review_1.html'">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
                     </div>
                 </td>
                 <td class="td3"><img src="media/real_pasta.png"></td>
@@ -96,8 +98,8 @@
                 <td class="td2">
                     <div>
                         <input id="empty" type="image" src="media/empty_heart.png" alt="관심 매장 버튼" onclick="changeImg(this)"><br>
-                        <button id="more" onclick="location.href='detail_2.html'">상세보기</button><br>
-                        <button id="review" onclick="location.href='review_2.html'">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
+                        <button id="more" onclick="location.href='detail/detail_2.html'">상세보기</button><br>
+                        <button id="review" onclick="location.href='review_list/review_2.html'">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
                     </div>
                 </td>
                 <td class="td3"><img src="media/hair_shop.jpg"></td>
@@ -120,8 +122,8 @@
                 <td class="td2">
                     <div>
                         <input id="empty" type="image" src="media/empty_heart.png" alt="관심 매장 버튼" onclick="changeImg(this)"><br>
-                        <button id="more" onclick="location.href='detail_3.html'">상세보기</button><br>
-                        <button id="review" onclick="location.href='review_3.html'">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
+                        <button id="more" onclick="location.href='detail/detail_3.html'">상세보기</button><br>
+                        <button id="review" onclick="location.href='review_list/review_3.html'">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
                     </div>
                 </td>
                 <td class="td3"><img src="media/sushi.jpeg"></td>
@@ -133,7 +135,7 @@
     <div class="pagination">
         <div>
             <a href="#" class="prev">&#60;</a>
-            <a href="#" class="cur">1</a>
+            <a href="#" class="cur" style="background-color: rgb(191, 240, 95);">1</a>
             <a href="#">2</a>
             <a href="#">3</a>
             <a href="#">4</a>

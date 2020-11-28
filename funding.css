@@ -1,9 +1,9 @@
 #funding_title
 {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     font-size: 30px;
-    background: rgb(229, 230, 178);
+    background: rgb(255, 255, 112);
 }
 #first_ad
 {
@@ -54,10 +54,39 @@
     color: yellowgreen; 
 }
 
-#support_news_detail_title
+#support_block
 {
     text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    background: rgb(214, 206, 206);
+}
+#support_
+{
+    text-align: center;
+    font-size: 15px;
+}
+#progress
+{
+    width: 60%;
+    height: 50px;
+}
+
+#store_today
+{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+#store_today_list_img
+{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+#store_today_list
+{
+    text-align: left;
+    font-size: 13px;
 }

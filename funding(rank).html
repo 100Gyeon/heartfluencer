@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,17 @@
     <style>
         @import url(menu.css);
         @import url(funding.css);
-        @import url(funding_category.css);
-        #rank a:visited{
+        #rank a:visited {
             color: yellowgreen;
         }
     </style>
 </head>
+
 <body>
-    <img id="main_logo" src="media/logo.png">
-    <span id="main_txt">Heartfluencer</span>
+    <a class="header" href="home.html">
+        <img id="main_logo" src="media/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
     <span id="login"><a href="#">로그인</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
     <span id="join"><a href="#">회원가입</a></span>
@@ -23,7 +26,7 @@
         <ul>
             <li><a href="home.html">홈</a></li>
             <li><a href="enterprise.html">사업소개</a></li>
-            <li><a href="funding.html">펀딩</a></li>
+            <li><a href="funding.html" style="color: darkgreen;">펀딩</a></li>
             <li><a href="wish.html">이 메뉴 원해요!</a></li>
             <li><a href="mypage.html">마이페이지</a></li>
         </ul>
@@ -38,22 +41,7 @@
         </ul>
     </nav>
     <hr>
-    <br>
-    <table id="rank_">
-        <tbody>
-            <tr>
-                <td><img src="media/hair_shop.jpg" id="rank_img"></td>
-                <td id="rank_list"><strong style="font-size: 20px;">[ Top 1 ] 오래가는 헤어샵</strong><br><br>주소 : 서울시 은평구 응암동 579-1</td>
-            </tr>
-            <tr>
-                <td><img src="media/real_pasta.png" id="rank_img"></td>
-                <td id="rank_list"><strong style="font-size: 20px;">[ Top 2 ] 리얼 파스타</strong><br><br>주소 : 서울시 마포구 동교로 9길 28 1층</td>
-            </tr>
-            <tr>
-                <td><img src="media/star_bakery.jpg" id="rank_img"></td>
-                <td id="rank_list"><strong style="font-size: 20px;">[ Top 3 ] 스타 베이커리</strong><br><br>주속 : 00초등학교 앞 사거리</td>
-            </tr>
-        </tbody>
-    </table>
+    <h3 style="text-align:center;">착한 가게 리스트</h3>
 </body>
+
 </html>

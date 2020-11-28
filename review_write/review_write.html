@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <style>
+        @import url(/menu.css);
+        @import url(review_write.css);
+    </style>
+</head>
+
+<body>
+    <a class="header" href="/home.html">
+        <img id="main_logo" src="/media/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="#">로그인</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="#">회원가입</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="/home.html" style="color: darkgreen;">홈</a></li>
+            <li><a href="/enterprise.html">사업소개</a></li>
+            <li><a href="/funding.html">펀딩</a></li>
+            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+    <div class="box">
+        <div class="space">
+            <br>
+            <h2>리뷰 남기기</h2>
+            별점 : <br>
+            <form>
+                맛 :
+                <label><input type="checkbox" value="1"> 맛있어요</label>
+                <label><input type="checkbox" value="2"> 괜찮아요</label>
+                <label><input type="checkbox" value="3"> 맛없어요</label>
+            </form>
+            <form>
+                양 :
+                <label><input type="checkbox" value="1"> 양 많아요</label>
+                <label><input type="checkbox" value="2"> 양 적당해요</label>
+                <label><input type="checkbox" value="3"> 양 적어요</label>
+            </form>
+            <form>
+                서비스 :
+                <label><input type="checkbox" value="1"> 친절해요</label>
+                <label><input type="checkbox" value="2"> 불친절해요</label>
+            </form>
+            <form>
+                메뉴 :
+                <label><input type="checkbox" value="1"> 메뉴 다양해요</label>
+                <label><input type="checkbox" value="2"> 메뉴 적당해요</label>
+                <label><input type="checkbox" value="3"> 메뉴 부족해요</label>
+            </form>
+            사진 : <button id="image" onclick="location.href='#'">파일 선택</button>
+            <form>
+                설명 :
+                <label><input type="text" id="explain"></label>
+            </form>
+            <br>
+            <div class="btn">
+                <button id="yes_btn" onclick="location.href='#'">완료</button>
+                <button id="no_btn" onclick="location.href='#'">취소</button>
+            </div>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>
