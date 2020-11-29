@@ -1,0 +1,40 @@
+#since{
+
+    text-align: center;
+    color: indianred;
+    font-weight : bold;
+    font-size: larger;
+
+}
+
+#CEO{
+    font-weight : bold;
+    text-align: right;
+    
+}
+
+#thanks{
+    font-weight : bold;
+    font-size: larger;   
+}
+
+#to{
+    font-weight : bold;
+    font-size: larger;
+    color: lightseagreen;
+}
+
+#ssu{
+
+    margin-left : 100px;
+    margin-right : 20px;
+    width : 140px;
+    height : 60px;
+}
+
+#gov{
+    margin-left : 20px;
+    margin-right : 20px;
+    width : 120px;
+    height : 50px;
+}
