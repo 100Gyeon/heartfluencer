@@ -6,6 +6,7 @@
     <title>Heartfluencer</title>
     <style>
         @import url(menu.css);
+        @import url(menu_form.css);
     </style>
 </head>
 
@@ -26,4 +27,35 @@
             <li><a href="mypage.html">마이페이지</a></li>
         </ul>
     </nav>
+
+    <h1>이달의 메뉴 신청</h1>
+    <div id="left_box">
+        <h3>1월, 먹고 싶은 메뉴를 작성하세요!</h3>
+            모든 아동들이 작성한<br>
+            <strong>상위 3 개</strong>의 메뉴가 선정됩니다<br><br>
+            메뉴 작성은 <strong>1 인당 2 회씩</strong>만 가능합니다.<br>
+            메뉴는 운영진 내부 검토 후<br>
+            해당 월 투표에 올라가게 됩니다.<br>
+            <strong>진행되는 투표에 많은 참여 부탁드립니다 :)</strong> <br><br>
+
+            <span id = "label">희망 메뉴</span> <input type="text" name="food" id="textfield" size="25" value = "예시) 단호박죽"/>
+            <br>
+            <br>
+            <span id = "label">거주 지역</span> <input type="text" name="region" id="textfield" size="25" value = "예시) 서울"/><br>
+            <br>
+            <br>
+            <button id="green_btn" onclick="window.open('login_popup.html','new','resizable=no width=360 height=180, left=20,top=20');return false" >제출</button>
+
+    </div>
+
+    <div id="right_box">
+        <h3>현재 진행 중 메뉴 투표</h3>
+        <h2>*12월*</h2>
+        <input type="radio" name="chk_menu" value="라자냐" checked>라자냐<br><br>
+        <input type="radio" name="chk_menu" value="국물떡볶이">국물떡볶이<br><br>
+        <input type="radio" name="chk_menu" value="우동전골">우동전골<br><br><br>
+        <button id="vote_btn" onclick="location.href=''" >투표하기</button>
+        <button id="vote_btn" onclick="location.href=''" >결과보기</button>
+    </div>
+
 </body>
