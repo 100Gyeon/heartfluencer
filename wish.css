@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#green_btn {
+    text-align: center;
+    margin : auto;
+    background-color: rgb(122, 204, 46);
+    color: white;
+    padding: 15px 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+}
+
+#pink_btn {
+    align-items: center;
+    background-color: hotpink;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+}
+
+#menu_info{
+    width: 100%;
+    table-layout: fixed;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+    align-items : center;
+    text-align: center;
+}
+
+#menu_form a {
+    color: rgb(122, 204, 46);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#menu_form a:hover {
+    color: rgb(255, 145, 0);
+}
