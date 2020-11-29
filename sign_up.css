@@ -1,0 +1,49 @@
+h1{
+    margin-left: 3%;
+    color: darkslategrey;
+}
+
+#box {
+    background-color: rgb(231, 255, 224);
+    left : 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:80px;
+}
+
+#sign_up_form{
+    text-align: center;
+}
+
+#label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#textfield1{
+    
+     width:100px;
+     height:24px;
+}
+
+#textfield2{
+
+    width:180px;
+    height:24px;
+}
+
+
+#green_btn {
+    align-items: center;
+    background-color: rgb(122, 204, 46);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
