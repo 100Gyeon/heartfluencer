@@ -6,7 +6,7 @@
     <title>Heartfluencer</title>
     <style>
         @import url(menu.css);
-        @import url(sign_up.css);
+        @import url(mypage.css);
     </style>
 </head>
 
@@ -18,10 +18,18 @@
     <span id="login"><a href="go_login.html">로그인</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
     <span id="join"><a href="sign_up.html">회원가입</a></span>
-
-    <h1>회원가입</h1>
+    <nav id="menubar">
+        <ul>
+            <li><a href="home.html">홈</a></li>
+            <li><a href="enterprise.html">사업소개</a></li>
+            <li><a href="funding.html">펀딩</a></li>
+            <li><a href="wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="mypage_child.html" style="color: darkgreen;">마이페이지</a></li>
+        </ul>
+    </nav>
+    <h2>기본 회원정보</h2>
     <div id="box">
-        <div id = "sign_up_form">
+        <div id = "identification">
 
             <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
             <button id="btn">사진변경</button>
@@ -40,7 +48,7 @@
         <hr>
         <span id = "label">주소</span> <input type="text" name="address" id="textfield2" size="25" value = "(선택)"/><br>
         <hr>
-        <button id="green_btn" onclick="window.open('login_popup1.html','new','resizable=no width=360 height=180, left=20,top=20');return false" >가입하기</button>
+        <button id="modify_btn" onclick="location.href='mypage_modifying.html'" >수정</button>
         </div>
     </div>
 </body>

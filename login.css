@@ -12,3 +12,33 @@ img
 {
     text-align: center;
 }
+
+#go_login{
+    text-align: center;
+    background-color: rgb(201, 245, 166);
+    padding: 70px;
+}
+
+#label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#textfield1{
+    
+     width:160px;
+     height:28px;
+}
+
+#orange_btn {
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <style>
+        @import url(menu.css);
+        @import url(mypage.css);
+    </style>
+</head>
+
+<body>
+    <a class="header" href="home.html">
+        <img id="main_logo" src="media/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="go_login.html">로그인</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="sign_up.html">회원가입</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="home.html">홈</a></li>
+            <li><a href="enterprise.html">사업소개</a></li>
+            <li><a href="funding.html">펀딩</a></li>
+            <li><a href="wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="mypage_child.html" style="color: darkgreen;">마이페이지</a></li>
+        </ul>
+    </nav>
+    <h2>기본 회원정보</h2>
+    <div id="box">
+        <div id = "identification">
+
+            <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
+            <button id="btn">사진변경</button>
+        <hr>
+        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" value = "heartfluencer"/>  | 
+        <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" value = "(*필수)"/>
+        <br>
+        <hr>
+        <span id = "label">이름(실명)</span> <input type="text" name="full_name" id="textfield2" size="25" value = "김하트"/><br>
+        <hr>
+        <span id = "label">닉네임</span> <input type="text" name="nickname" id="textfield2" size="25" value = "22.6℃"/><br>
+        <hr>
+        <span id = "label">이메일</span> <input type="text" name="mail" id="textfield2" size="25" value = "heart@soongsil.ac.kr"/><br>
+        <hr>
+        <span id = "label">휴대전화</span> <input type="text" name="ph" id="textfield2" size="25" value = "010-2020-1016"/><br>
+        <hr>
+        <span id = "label">주소</span> <input type="text" name="address" id="textfield2" size="25" value = "서울특별시 동작구 상도로"/><br>
+        <hr>
+        <button id="modify_btn" onclick="location.href='mypage_modified.html'" >완료</button>
+        
+        </div>
+    </div>
+</body>

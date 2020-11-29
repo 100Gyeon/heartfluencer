@@ -6,7 +6,7 @@
     <title>Heartfluencer</title>
     <style>
         @import url(menu.css);
-        @import url(go_login.css);
+        @import url(login.css);
     </style>
 </head>
 
@@ -28,29 +28,18 @@
         </ul>
     </nav>
 
+    <div id = "go_login">
     <img src="media/circle_logo.png" alt="로고"></img>
-    <div id="login">
-        <form name="login">
-            <label>
-                ID<br>
-                <input type="Username" value="">
-            </label>
-            <br>
-            <label>
-                PW<br>
-                <input type="Passward" value="">
-            </label>
-            <br><br>
-            <lavel>
-                <input type="submit" value="회원 접속">
-            </lavel>
-            <br>
-            <br>
-            <lavel>
-                <input type="submit" value="비회원 접속"> 
-                <br>
-            </lavel>
-        </form>
+    <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="24" value = ""/>
+    <br>
+    <br>
+    <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="24" value = ""/>
+    <br><br>   
+    <button id="orange_btn" onclick="location.href='home.html'" >로그인</button>
+    <button id="orange_btn" onclick="location.href='sign_up.html'" >회원가입</button>
+    <br><br>
+    <input type="checkbox" name="auto_login" value="auto_login"/> 자동로그인
     </div>
+
 </body>
 </html>
