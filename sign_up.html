@@ -9,6 +9,7 @@
         @import url(sign_up.css);
     </style>
     <script src="showAuth.js"></script>
+    <script src="uploadImg.js"></script>
 </head>
 
 <body>
@@ -23,8 +24,10 @@
     <h1>회원가입</h1>
     <div id="box">
         <div id = "sign_up_form">
-            <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
-            <button id="btn">사진변경</button>
+        
+            <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;>
+            <br>
+            <input type="file" id="upImgFile" onChange="uploadImg();" accept="image/*">
             <form>
                 <label><input type="checkbox" value="1"> 후원자</label>
                 <label><input type="checkbox" value="2"> 결식아동</label>

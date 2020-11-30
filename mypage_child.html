@@ -19,6 +19,7 @@
             howLongDays();
         }
     </script>
+    <script src="uploadImg.js"></script>
 </head>
 
 <body>
@@ -40,6 +41,7 @@
     </nav>
     <h1>마이페이지</h1>
     <p>
+        
         <img id="my_img" src="media/before_upload_img.png" ; width="360" ; height="360" ; align="left" ;>
     <h1><span id="orange_text">김하트</span> 님 좋은 하루 보내셨나요? :)</h1> <br>
     <h2>닉네임 : 22.6℃</h2>
@@ -51,7 +53,7 @@
     <br>
     <br>
     </p>
-    <button id="btn_img">사진변경</button><br><br><br>
+    <input type="file" id="upImgFile" onChange="uploadImg();" accept="image/*"><br><br><br>
     <!--로컬에서 파일 불러오기-->
     <button id="green_btn" onclick="location.href='mypage_modified.html'">개인정보 수정</button>
     <!--원하는 링크 연결-->
