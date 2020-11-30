@@ -1,9 +1,5 @@
-h1{
+h1 {
     padding-left: 3%;
-}
-
-h2{
-    text-align: center;
 }
 
 #btn_img {  
@@ -48,13 +44,18 @@ h2{
 }
 
 #textfield1 {
-    width:100px;
-    height:24px;
+    width: 100px;
+    height: 24px;
 }
 
 #textfield2 {
-    width:180px;
-    height:24px;
+    width: 180px;
+    height: 24px;
+}
+
+#textfield3 {
+    width: 80px;
+    height: 24px;
 }
 
 #modify_btn {

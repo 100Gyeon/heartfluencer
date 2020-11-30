@@ -34,19 +34,27 @@
             <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
             <button id="btn">사진변경</button>
         <hr>
-        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" value = "(*필수)"/>  | 
-        <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" value = "(*필수)"/>
+        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" placeholder = "(*필수)"/>  | 
+        <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" placeholder = "(*필수)"/>
         <br>
         <hr>
-        <span id = "label">이름(실명)</span> <input type="text" name="full_name" id="textfield2" size="25" value = "(*필수)"/><br>
+        <span id = "label">이름(실명)</span> <input type="text" name="full_name" id="textfield2" size="25" placeholder = "(*필수)"/><br>
         <hr>
-        <span id = "label">닉네임</span> <input type="text" name="nickname" id="textfield2" size="25" value = "(*필수)"/><br>
+        <span id = "label">닉네임</span> <input type="text" name="nickname" id="textfield2" size="25" placeholder = "(*필수)"/><br>
         <hr>
-        <span id = "label">이메일</span> <input type="text" name="mail" id="textfield2" size="25" value = "(선택)"/><br>
+        <span id = "label">이메일</span> <input type="text" name="mail" id="textfield2" size="25" placeholder = "(선택)"/><br>
         <hr>
-        <span id = "label">휴대전화</span> <input type="text" name="ph" id="textfield2" size="25" value = "(*필수)"/><br>
+        <span id = "label">휴대전화</span> <input type="text" name="ph" id="textfield2" size="25" placeholder = "(*필수)"/><br>
         <hr>
-        <span id = "label">주소</span> <input type="text" name="address" id="textfield2" size="25" value = "(선택)"/><br>
+        <span id = "label">주소</span> <input type="text" name="address" id="textfield2" size="25" placeholder = "(선택)"/><br>
+        <hr>
+        <span id = "label">카드번호(16자리) 
+            <input type="text" name="card" id="textfield3" maxlength="4" placeholder = "(*필수)"/>-
+            <input type="text" name="card" id="textfield3" maxlength="4" placeholder = "(*필수)"/>-
+            <input type="text" name="card" id="textfield3" maxlength="4" placeholder = "(*필수)"/>-
+            <input type="text" name="card" id="textfield3" maxlength="4" placeholder = "(*필수)"/>
+            <button type="button">사진 첨부</button>
+        </span>
         <hr>
         <button id="modify_btn" onclick="location.href='mypage_modifying.html'" >수정</button>
         </div>
