@@ -6,10 +6,7 @@ h1 {
 #box {
     background-color: rgb(231, 255, 224);
     left : 200px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
     padding:80px;
 }
 
@@ -47,13 +44,18 @@ form {
 }
 
 #textfield1 {
-    width:100px;
-    height:24px;
+    width: 100px;
+    height: 24px;
 }
 
 #textfield2 {
-    width:180px;
-    height:24px;
+    width: 180px;
+    height: 24px;
+}
+
+#textfield3 {
+    width: 80px;
+    height: 24px;
 }
 
 #green_btn {
