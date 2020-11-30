@@ -6,7 +6,7 @@
     <title>Heartfluencer</title>
     <style>
         @import url(menu.css);
-        @import url(mypage.css);
+        @import url(reservation.css);
     </style>
     <script>
     function printTime() {
@@ -42,10 +42,37 @@
         </ul>
     </nav>
 
-    <img id="ic_shop" src="media/restaurant.png" width="20" height="20">
-    <h2>리얼파스타(망원점)</h2>
+    <div id = "top_box">
+         <img id="ic_shop" src="media/restaurant.png" width="20" height="20">
+         <h2>리얼파스타(망원점)</h2>
+
+         <strong>하트지수</strong> 
+            <img id="score" src="media/empty_heart.png" width="60" height="60"> <!--하트 점수 맞추기-->
+        
+            <button id="green_btn" onclick="location.href='home.html'" >다른 가게 선택하기</button>
+    </div>
+
+    <hr>
     
+    <div id = "left_box">
     <span id="clock"></span>입니다<br />
     <!--사실 시간까지 현재시간으로 맞추고 시간 예약을 가능하게 해야하나?-->
+    <br>
+    <br>
+    <select name="menu_list">
+        <option value="default" selected="selected">(메뉴 선택)</option>
+        <option value="menu1">차돌 매콤 크림파스타</option>
+        <option value="menu2">간장 치킨 파스타</option>
+        <option value="menu3">푸타네스카 파스타</option>
+        <option value="menu4">베이컨 크림 파스타</option>
+    </select>
+    <button id="orange_btn" onclick="location.href=''" >선택</button>
+    </div>
 
+    <div id = "right_box">
+    <form>
+        <p><input type="date" id='currentDate'></p>
+        <p><button id="pink_btn" onclick="location.href=''" >예약</button></p>
+      </form>
+    </div>
 </body>
