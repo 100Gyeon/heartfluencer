@@ -1,4 +1,4 @@
-h1{
+h1 {
     margin-left: 3%;
     color: darkslategrey;
 }
@@ -13,27 +13,48 @@ h1{
     padding:80px;
 }
 
-#sign_up_form{
+#sign_up_form {
     text-align: center;
 }
 
-#label {
+form {
+    margin-top: 10px;
+}
+
+#auth {
+    background-color: orange;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#card {
+    visibility: hidden;
+    display: none;
+}
+
+#info {
+    text-align: left;
+    font-weight: normal;
+    margin: auto;
+    width: 50%;
+}
+
+#label, #card {
     font-size: 16px;
     font-weight: bold;
 }
 
-#textfield1{
-    
-     width:100px;
-     height:24px;
-}
-
-#textfield2{
-
-    width:180px;
+#textfield1 {
+    width:100px;
     height:24px;
 }
 
+#textfield2 {
+    width:180px;
+    height:24px;
+}
 
 #green_btn {
     align-items: center;
@@ -41,9 +62,9 @@ h1{
     color: white;
     padding: 10px 20px;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
     font-size: 18px;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
 }

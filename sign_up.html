@@ -8,6 +8,7 @@
         @import url(menu.css);
         @import url(sign_up.css);
     </style>
+    <script src="showAuth.js"></script>
 </head>
 
 <body>
@@ -22,24 +23,39 @@
     <h1>회원가입</h1>
     <div id="box">
         <div id = "sign_up_form">
-
             <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
             <button id="btn">사진변경</button>
+            <form>
+                <label><input type="checkbox" value="1"> 후원자</label>
+                <label><input type="checkbox" value="2"> 결식아동</label>
+                <button id="auth" type="button" onclick="showAuth()">인증</button>
+            </form>
         <hr>
-        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" value = "(*필수)"/>  | 
-        <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" value = "(*필수)"/>
+        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" placeholder = "(*필수)"/>  | 
+        <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" placeholder = "(*필수)"/>
         <br>
         <hr>
-        <span id = "label">이름(실명)</span> <input type="text" name="full_name" id="textfield2" size="25" value = "(*필수)"/><br>
+        <span id = "label">이름(실명)</span> <input type="text" name="full_name" id="textfield2" size="25" placeholder = "(*필수)"/><br>
         <hr>
-        <span id = "label">닉네임</span> <input type="text" name="nickname" id="textfield2" size="25" value = "(*필수)"/><br>
+        <span id = "label">닉네임</span> <input type="text" name="nickname" id="textfield2" size="25" placeholder = "(*필수)"/><br>
         <hr>
-        <span id = "label">이메일</span> <input type="text" name="mail" id="textfield2" size="25" value = "(선택)"/><br>
+        <span id = "label">이메일</span> <input type="text" name="mail" id="textfield2" size="25" placeholder = "(선택)"/><br>
         <hr>
-        <span id = "label">휴대전화</span> <input type="text" name="ph" id="textfield2" size="25" value = "(*필수)"/><br>
+        <span id = "label">휴대전화</span> <input type="text" name="ph" id="textfield2" size="25" placeholder = "(*필수)"/><br>
         <hr>
-        <span id = "label">주소</span> <input type="text" name="address" id="textfield2" size="25" value = "(선택)"/><br>
+        <span id = "label">주소</span> <input type="text" name="address" id="textfield2" size="25" placeholder = "(선택)"/><br>
         <hr>
+        <span id = "card">카드번호(16자리) 
+            <input type="text" name="card" id="textfield2" size="25" placeholder = "(*필수)"/>
+            <button type="button">사진 첨부</button>
+            <br>
+            <p id="info">
+                <br>※ 안내사항<br>
+                - 유효하지 않은 카드를 첨부하실 경우 인증이 불가능합니다.<br>
+                - 아동급식카드는 본인 확인 용도일뿐, 돈이 인출되지 않으니 안심하세요.<br>
+                - 타인에게 아동급식카드를 대여하다가 적발될 경우 인증이 취소됩니다.<br><br>
+            </p>
+        </span>
         <button id="green_btn" onclick="window.open('login_popup1.html','new','resizable=no width=360 height=180, left=20,top=20');return false" >가입하기</button>
         </div>
     </div>
