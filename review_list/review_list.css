@@ -12,6 +12,7 @@ h3 {
     outline: 0;
     border-radius: 5px;
     padding: 10px;
+    cursor: pointer;
 }
 table {
     margin-left: 40px;
@@ -27,6 +28,11 @@ th, td {
 }
 .evaluation {
     width: 470px;
+}
+.star {
+    background-color: gold;
+    width: 36px;
+    height: 36px;
 }
 .picture {
     width: 200px;
