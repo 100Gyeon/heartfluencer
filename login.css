@@ -22,12 +22,13 @@ img
 #label {
     font-size: 16px;
     font-weight: bold;
+    vertical-align: middle;
+    text-align: left;
 }
 
 #textfield1{
-    
-     width:160px;
-     height:28px;
+    width:160px;
+    height:28px;
 }
 
 #orange_btn {
@@ -36,9 +37,8 @@ img
     color: white;
     padding: 10px 15px;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
     font-size: 16px;
+    border: 0;
+    outline: 0;
 }

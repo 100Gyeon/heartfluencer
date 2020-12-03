@@ -6,7 +6,7 @@ function CheckLoginInput()
         document.loginform.id_input.focus();
         return false;
     }
- 
+
     if( document.loginform.pw_input.value == "" )
     {
         alert( "비밀번호를 입력하세요" );
@@ -27,8 +27,8 @@ function CheckLoginInput()
         document.loginform.pw_input.focus();
         return false;
     }
- 
+
     document.loginform.setAttribute( "action", "home.html"  ); //진입하면 상단 사용자 로그아웃 표시로 바꿔야 함
     document.loginform.submit();
- 
+
 }
