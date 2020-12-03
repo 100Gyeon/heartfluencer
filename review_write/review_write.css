@@ -20,6 +20,7 @@ label, input {
     height: 200px;
     width: 540px;
     font-size: 18px;
+    cursor: text;
 }
 .btn {
     text-align: center;
