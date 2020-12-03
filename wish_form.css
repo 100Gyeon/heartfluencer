@@ -26,35 +26,31 @@ h3 {
     color: white;
     padding: 10px 20px;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
     font-size: 18px;
 }
 
 #textfield{
-     text-align:center;
-     width:180px;
-     height:30px;
+    text-align: center;
+    width: 230px;
+    height: 30px;
 }
 
 #left_box {
     position: absolute;
     top: 30%;
-    margin-left: 60px;
+    margin-top: 40px;
+    margin-left: 240px;
     padding:10px;
 }
 
 #right_box {
     position: absolute;
     top: 32%;
-    right: 180px;
-    background-color: rgb(194, 194, 194); 
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    right: 240px;
+    background-color: rgb(194, 194, 194);
+    margin-top: 40px;
+    border-radius: 5px;
     padding:40px;
 }
 
@@ -64,9 +60,6 @@ h3 {
     color: white;
     padding: 10px 20px;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
     font-size: 17px;
 }
