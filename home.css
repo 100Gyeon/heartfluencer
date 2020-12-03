@@ -95,6 +95,9 @@ td.td3 img {
     margin-left: auto;
     margin-right: auto;
 }
+#empty:focus, button:focus {
+    outline: none;
+}
 div.pagination {
     text-align: center;
 }
