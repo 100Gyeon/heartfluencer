@@ -30,11 +30,8 @@
     <h2>기본 회원정보</h2>
     <div id="box">
         <div id = "identification">
-
             <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
-            <input type="file" id="real_btn" accept="image/png, image/jpeg" hidden="hidden">
-            <button type="button" id="custom_btn">사진변경</button>
-            <script src="customButton.js"></script>
+            <input type="file" id="upImgFile" onChange="uploadImg();" accept="image/*"><br>
         <hr>
         <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" placeholder = "(*필수)"/>  | 
         <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" placeholder = "(*필수)"/>
