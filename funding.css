@@ -5,6 +5,7 @@
     font-size: 30px;
     background: rgb(255, 255, 112);
 }
+
 /*funding cagory bar*/
 #funding_category ul
 {
@@ -38,5 +39,99 @@
     font-size: 20px;
     background: rgb(214, 206, 206);
 }
-/*funding slide*/
 
+/*funding slide*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ul{
+    list-style:none;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:800px;
+    height:100px;
+    position: relative;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.item{
+    width:100%;
+    height:200px;
+    background-color: rgb(238, 197, 238);
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.item:nth-child(2){
+    background-color: rgb(238, 197, 238);
+    border-radius: 50px;
+}
+.item:nth-child(3){
+    background-color: rgb(238, 197, 238);
+    border-radius: 50px;
+}
+.item_link:link{
+  text-decoration: none;
+  color: black;
+}
+.item_link:visited{
+  text-decoration: none;
+  color: black;
+}
+.container ul{
+    -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+    -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+    transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+}
