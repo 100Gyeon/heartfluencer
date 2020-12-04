@@ -1,3 +1,4 @@
+/*support*/
 #support_block
 {
     text-align: center;
@@ -12,8 +13,7 @@
     width: 60%;
     height: 50px;
 }
-
-
+/*today_store*/
 #store_today
 {
     width: 50%;
@@ -35,8 +35,7 @@
     text-align: left;
     font-size: 13px;
 }
-
-
+/*support_news*/
 #news_support
 {
     width: 70%;
@@ -58,8 +57,7 @@
     text-align: center;
     font-size: 13px;
 }
-
-
+/*rank*/
 #rank_
 {
     width: 50%;
