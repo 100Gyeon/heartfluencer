@@ -10,11 +10,10 @@
         @import url(star_rating.css);
     </style>
     <script src="starRating.js"></script>
-    <script src="checkInput.js"></script>
     <script src="alertDialog.js"></script>
 </head>
 
-<body onload="document.getElementById('explain').focus();">
+<body>
     <a class="header" href="/home.html">
         <img id="main_logo" src="/media/logo.png">
         <span id="main_txt">Heartfluencer</span>
@@ -56,35 +55,35 @@
             </div>
             <form>
                 맛 :
-                <label><input type="checkbox" value="1"> 맛있어요</label>
-                <label><input type="checkbox" value="2"> 괜찮아요</label>
-                <label><input type="checkbox" value="3"> 맛없어요</label>
+                <label><input type="checkbox" name="taste" value="맛있어요"> 맛있어요</label>
+                <label><input type="checkbox" name="taste" value="괜찮아요"> 괜찮아요</label>
+                <label><input type="checkbox" name="taste" value="맛없어요"> 맛없어요</label>
             </form>
             <form>
                 양 :
-                <label><input type="checkbox" value="1"> 양 많아요</label>
-                <label><input type="checkbox" value="2"> 양 적당해요</label>
-                <label><input type="checkbox" value="3"> 양 적어요</label>
+                <label><input type="checkbox" name="amount" value="양 많아요"> 양 많아요</label>
+                <label><input type="checkbox" name="amount" value="양 적당해요"> 양 적당해요</label>
+                <label><input type="checkbox" name="amount" value="양 적어요"> 양 적어요</label>
             </form>
             <form>
                 서비스 :
-                <label><input type="checkbox" value="1"> 친절해요</label>
-                <label><input type="checkbox" value="2"> 불친절해요</label>
+                <label><input type="checkbox" name="service" value="친절해요"> 친절해요</label>
+                <label><input type="checkbox" name="service" value="불친절해요"> 불친절해요</label>
             </form>
             <form>
                 메뉴 :
-                <label><input type="checkbox" value="1"> 메뉴 다양해요</label>
-                <label><input type="checkbox" value="2"> 메뉴 적당해요</label>
-                <label><input type="checkbox" value="3"> 메뉴 부족해요</label>
+                <label><input type="checkbox" name="diversity" value="메뉴 다양해요"> 메뉴 다양해요</label>
+                <label><input type="checkbox" name="diversity" value="메뉴 적당해요"> 메뉴 적당해요</label>
+                <label><input type="checkbox" name="diversity" value="메뉴 부족해요"> 메뉴 부족해요</label>
             </form>
             사진 : <input type="file" accept="image/png, image/jpeg">
             <form onsubmit="return false;">
                 설명 :
-                <label><input type="text" id="explain" onblur="check(this)"></label>
+                <label><input type="text" id="explain"></label>
             </form>
             <br>
             <div class="btn">
-                <button id="yes_btn" onclick="completeDialog()">완료</button>
+                <input type="submit" id="yes_btn" onclick="completeDialog()" value="완료"></button>
                 <button id="no_btn" onclick="cancelDialog()">취소</button>
             </div>
             <br>
