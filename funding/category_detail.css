@@ -79,3 +79,10 @@
     text-align: left;
     font-size: 13px;
 }
+
+#ad
+{
+    text-align: right;
+    align-items: right;
+    padding-right: 3%;
+}
