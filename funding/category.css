@@ -1,0 +1,41 @@
+#funding_title
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    background: rgb(255, 255, 112);
+}
+
+/*funding cagory bar*/
+#funding_category ul
+{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#funding_category ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
+    margin: 6px;
+}
+#funding_category ul li a {
+    
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+#funding_category ul li a:hover {
+    color: yellowgreen; 
+}
+
+#support_news_detail_title
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    background: rgb(214, 206, 206);
+}
