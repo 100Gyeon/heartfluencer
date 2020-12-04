@@ -10,10 +10,11 @@
         @import url(star_rating.css);
     </style>
     <script src="starRating.js"></script>
+    <script src="checkInput.js"></script>
     <script src="alertDialog.js"></script>
 </head>
 
-<body>
+<body onload="document.getElementById('explain').focus();">
     <a class="header" href="/home.html">
         <img id="main_logo" src="/media/logo.png">
         <span id="main_txt">Heartfluencer</span>
@@ -77,9 +78,9 @@
                 <label><input type="checkbox" value="3"> 메뉴 부족해요</label>
             </form>
             사진 : <input type="file" accept="image/png, image/jpeg">
-            <form>
+            <form onsubmit="return false;">
                 설명 :
-                <label><input type="text" id="explain"></label>
+                <label><input type="text" id="explain" onblur="check(this)"></label>
             </form>
             <br>
             <div class="btn">
