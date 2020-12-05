@@ -8,6 +8,33 @@
         @import url(menu.css);
         @import url(mypage.css);
     </style>
+    <script src="uploadImg.js"></script>
+    <script>
+        
+        function modifyUser() {
+
+
+            document.getElementsByName("IDfield")[0].disabled = "true";
+            document.getElementsByName("PWfield")[0].disabled = "true";
+            document.getElementsByName("username")[0].disabled = "true";
+            document.getElementsByName("nickname")[0].disabled = "true";
+            document.getElementsByName("mail")[0].disabled = "true";
+            document.getElementsByName("ph")[0].disabled = "true";
+            document.getElementsByName("address")[0].disabled = "true";
+            document.getElementsByName("card")[0].disabled = "true";
+            document.getElementsByName("card")[1].disabled = "true";
+            document.getElementsByName("card")[2].disabled = "true";
+            document.getElementsByName("card")[3].disabled = "true";
+            document.getElementsById("upImgFile").stlye.dispaly = "none";
+
+        	var elem = document.getElementById("modify_btn");
+	        if (elem.value=="완료") 
+        	elem.value = "수정";
+        	else 
+  	        elem.value = "완료";
+
+        }
+    </script>
 </head>
 
 <body>
@@ -31,13 +58,13 @@
     <div id="box">
         <div id = "identification">
             <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
-            <button id="btn">사진변경</button>
+            <input type="file" id="upImgFile" onChange="uploadImg();" accept="image/*"><br>
         <hr>
-        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" value = "heartfluencer"/>  | 
-        <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" value = "(*필수)"/>
+        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" value = "heart"/>  | 
+        <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" value = "1111"/>
         <br>
         <hr>
-        <span id = "label">이름(실명)</span> <input type="text" name="full_name" id="textfield2" size="25" value = "김하트"/><br>
+        <span id = "label">이름(실명)</span> <input type="text" name="username" id="textfield2" size="25" value = "김하트"/><br>
         <hr>
         <span id = "label">닉네임</span> <input type="text" name="nickname" id="textfield2" size="25" value = "22.6℃"/><br>
         <hr>
@@ -57,7 +84,7 @@
             <script src="customButton.js"></script>
         </span>
         <hr>
-        <button id="modify_btn" onclick="location.href='mypage_modified.html'" >완료</button>
+        <input type ="button" id="modify_btn" onclick='modifyUser()' value = "완료"/>
         
         </div>
     </div>
