@@ -27,10 +27,10 @@ div input {
     width: 240px;
 }
 #button {
-    margin-left: 10px;
+    margin-left: 20px;
     display: inline-block;
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
 }
 hr {
     margin-left: 20px;
