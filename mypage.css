@@ -38,6 +38,10 @@ h2 {
     color : rgb(255, 145, 0) ;
 }
 
+#clock{
+    color : grey ;
+}
+
 #identification {
     text-align: center;
 }
