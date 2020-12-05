@@ -69,13 +69,24 @@
     <img id="heart" src="/media/heart.png">
     <h4>개인정보 수집/제공 동의 및 기부금 영수증 신청</h4>
     <form id="info">
-        <input type="radio" name="agreement" value="yes"> 동의
-        <input type="radio" name="agreement" value="no"> 동의하지 않음
+        <label><input type="radio" name="agreement" value="yes"> 동의</label>
+        <label><input type="radio" name="agreement" value="no"> 동의하지 않음</label>
         <br><br>
         기부자명 <input type="text" value="" id="name"><br><br>
-        주민등록번호 <input type="text" value="" id="num"> - <input type="text" value="" id="num"><br><br>
-        주소 <input type="text" value="" id="addr"><br><br>
-        후원계좌 <input type="text" value="" id="account"><br><br>
+        주민등록번호 <input type="text" value="" id="num" maxlength="6"> - <input type="password" value="" id="num" maxlength="7"><br><br>
+        주소 <input type="text" value="" id="addr" placeholder="도로명주소로 작성해 주세요."><br><br>
+        후원 계좌
+        <select id="bank">
+            <option value="*">은행 선택</option>
+            <option value="NH농협">NH농협</option>
+            <option value="KB국민">KB국민</option>
+            <option value="신한">신한</option>
+            <option value="우리">우리</option>
+            <option value="하나">하나</option>
+            <option value="신협">신협</option>
+            <option value="새마을">새마을</option>
+        </select>
+        <input type="text" value="" id="account"><br><br>
     </form>
     <form id="check">
         다음 내용을 확인했습니다. <input type="checkbox" value="confirm">

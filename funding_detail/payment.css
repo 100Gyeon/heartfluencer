@@ -49,12 +49,16 @@ input {
     margin-left: 10px;
 }
 #addr {
-    width: 400px;
+    width: 467px;
     margin-left: 74px;
 }
+#bank {
+    margin-left: 38px;
+    margin-bottom: 20px;
+}
 #account {
-    width: 400px;
-    margin-left: 43px;
+    width: 300px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 #check {
@@ -65,7 +69,7 @@ input {
     margin-left: 10px;
     margin-bottom: 50px;
     padding: 10px;
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(78, 78, 78);
     color: white;
     border: 0;
     outline: 0;
