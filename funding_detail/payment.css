@@ -34,6 +34,29 @@ h4 {
     margin-top: 20px;
     margin-left: 20%;
 }
+input {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #949494;
+    border-radius: 3px;
+    background-color: rgb(241, 241, 241);
+}
+#name {
+    width: 100px;
+    margin-left: 43px;
+}
+#num {
+    width: 100px;
+    margin-left: 10px;
+}
+#addr {
+    width: 400px;
+    margin-left: 74px;
+}
+#account {
+    width: 400px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+}
 #check {
     margin-left: 46%;
     display: inline-block;
