@@ -8,6 +8,7 @@
         @import url(/menu.css);
         @import url(category.css);
         @import url(category_detail.css);
+        @import url(payment.css);
         #support a:visited {
             color: yellowgreen;
         }
@@ -41,5 +42,44 @@
     </nav>
     <hr>
     <br><br>
+    <h3>펀딩하기 ------------------------------------------------------------------------------------------------------</h3>
+    <h2>김하트님, 펀딩에 함께해 주셔서 감사합니다. </h2>
+    <div id="store">
+        <span class="choice">펀딩 가게 선택</span>
+        <form>
+            <select>
+                <option value="1">냠냠 베이커리</option>
+                <option value="2">초밥 좋은날</option>
+                <option value="3">마마 떡볶이</option>
+            </select>
+        </form>
+    </div>
+    <img src="/media/plus.png" id="plus">
+    <div id="money">
+        <span class="choice">펀딩 금액</span>
+        <form>
+            <select>
+                <option value="1">3만원</option>
+                <option value="2">5만원</option>
+                <option value="3">10만원</option>
+            </select>
+        </form>
+    </div>
+    <img id="equal" src="/media/equal.png">
+    <img id="heart" src="/media/heart.png">
+    <h4>개인정보 수집/제공 동의 및 기부금 영수증 신청</h4>
+    <form id="info">
+        <input type="radio" name="agreement" value="yes"> 동의
+        <input type="radio" name="agreement" value="no"> 동의하지 않음
+        <br><br>
+        기부자명 <input type="text" value=""><br><br>
+        주민등록번호 <input type="text" value=""> - <input type="text" value=""><br><br>
+        주소 <input type="text" value=""><br><br>
+        후원계좌 <input type="text" value=""><br><br>
+    </form>
+    <form id="check">
+        다음 내용을 확인했습니다. <input type="checkbox" value="confirm">
+    </form>
+    <button type="submit" id="together">펀딩에 함께 하겠습니다.</button>
 </body>
 </html>

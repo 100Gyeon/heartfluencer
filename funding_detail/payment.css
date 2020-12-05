@@ -1,0 +1,51 @@
+h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h2, .choice, select {
+    margin-left: 15%;
+}
+#store {
+    margin-left: 27%;
+}
+#store, #money, #plus, #equal {
+    margin-top: 40px;
+    display: inline-block;
+}
+select {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+#plus {
+    margin-left: 40px;
+}
+#equal, #heart {
+    margin-left: 40px;
+    width: 32px;
+    height: 32px;
+}
+h4 {
+    margin-top: 60px;
+    margin-left: 20%;
+}
+#info {
+    margin-top: 20px;
+    margin-left: 20%;
+}
+#check {
+    margin-left: 46%;
+    display: inline-block;
+}
+#together {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    width: 250px;
+}
