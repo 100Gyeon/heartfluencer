@@ -8,6 +8,16 @@ h2 {
 #select {
     display: inline-block;
 }
+#city {
+    height: 32px;
+}
+#word {
+    height: 30px;
+}
+#city, #word {
+    border: 1px solid #949494;
+    border-radius: 3px;
+}
 option {
     font-size: 6px;
 }
