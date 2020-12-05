@@ -8,6 +8,7 @@
         @import url(menu.css);
         @import url(wish_form.css);
     </style>
+    <script src="checkWish.js"></script>
 </head>
 
 <body>
@@ -49,12 +50,16 @@
 
     <div id="right_box">
         <h3>현재 진행 중 메뉴 투표</h3>
-        <h2>*12월*</h2>
-        <input type="radio" name="chk_menu" value="라자냐" checked> 라자냐<br><br>
-        <input type="radio" name="chk_menu" value="국물떡볶이"> 국물떡볶이<br><br>
-        <input type="radio" name="chk_menu" value="우동전골"> 우동전골<br><br><br>
-        <button id="vote_btn" onclick="location.href=''" >투표하기</button>
-        <button id="vote_btn" onclick="location.href=''" >결과보기</button>
+        <h2>*12월*</h2><br>
+        <form name="menu">
+            <input type="radio" name="chk_menu" value="라자냐"> 라자냐
+            <progress value="6" max="10" id="prog_1"></progress><br><br>
+            <input type="radio" name="chk_menu" value="국물떡볶이"> 국물떡볶이
+            <progress value="3" max="10" id="prog_2"></progress><br><br>
+            <input type="radio" name="chk_menu" value="우동전골"> 우동전골
+            <progress value="1" max="10" id="prog_3"></progress><br><br><br>
+            <input type="button" id="vote_btn" value="투표하기" onclick="check()"></input>
+        </form>
     </div>
 
 </body>

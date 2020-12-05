@@ -54,6 +54,38 @@ h3 {
     padding:40px;
 }
 
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 2px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: green;
+    border-radius: 2px;
+}
+
+#prog_1, #prog_2, #prog_3 {
+    width: 40%;
+    height: 20px;
+}
+
+#prog_1 {
+    margin-left: 18%;
+}
+
+#prog_2 {
+    margin-left: 5%;
+}
+
+#prog_3 {
+    margin-left: 12%;
+}
+
 #vote_btn {
     align-items: center;
     background-color: rgb(122, 204, 46);
@@ -62,4 +94,5 @@ h3 {
     text-align: center;
     border-radius: 5px;
     font-size: 17px;
+    width: 230px;
 }
