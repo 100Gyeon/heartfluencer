@@ -1,5 +1,4 @@
-#funding_title
-{
+#funding_title {
     text-align: center;
     padding: 5px;
     font-size: 30px;
@@ -7,8 +6,7 @@
 }
 
 /*funding cagory bar*/
-#funding_category ul
-{
+#funding_category ul {
     text-align: center;
     list-style: none;
     margin: 0;
@@ -22,7 +20,6 @@
     margin: 6px;
 }
 #funding_category ul li a {
-    
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -31,7 +28,6 @@
 #funding_category ul li a:hover {
     color: yellowgreen; 
 }
-
 #support_news_detail_title
 {
     text-align: center;
