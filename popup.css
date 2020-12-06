@@ -1,0 +1,39 @@
+.popup_form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 410px;
+    padding: 20px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(239, 229, 217);
+}
+img {
+    width: 300px;
+    height: 370px;
+    margin: auto;
+    width: 100%;
+}
+.close_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px 9px;
+    cursor: pointer;
+}
+.close_btn:hover {
+    color: #fff;
+    background-color: rgb(74, 136, 24);
+}
+.hide {
+    display: inline;
+}
+
+@media screen and (min-width: 840px) {
+    .popup_form {
+        width: 30%;
+    }
+}
