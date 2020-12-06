@@ -10,4 +10,10 @@ function changeList() {
     else if(city.options[idx].value == "3"){
         location.href = "page_3.html";
     }
+    else if(city.options[idx].value == "4"){
+        location.href = "page_4.html";
+    }
+    else if(city.options[idx].value == "5"){
+        location.href = "page_5.html";
+    }
 }
