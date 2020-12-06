@@ -30,19 +30,16 @@
     </nav>
 
     <div id="top_box">
-
         <h2>리얼파스타(망원점)</h2>
-
         <button id="green_btn" onclick="location.href='/home.html'">다른 가게 선택하기</button>
     </div>
-
     <hr>
 
     <div id="left_box">
-        <p id = "today">Today</p>
-        <span id="clock"></span><br />
+        <p id="today">Today</p>
+        <div id="clock"></div><br />
         <br>
-        <br>
+        <h1>메뉴 고르기</h1><br>
         <select name="menu_list">
             <option value="default" selected="selected">(메뉴 선택)</option>
             <option value="menu1">차돌 매콤 크림파스타</option>
@@ -53,10 +50,30 @@
         <button id="orange_btn" onclick="location.href=''">선택</button>
     </div>
 
+    <form>
+        <table id="calendar" border="3">
+            <tr>
+                <td id="tbCalendarYM" colspan="7"> yyyy년 m월</td>
+            </tr>
+            <tr>
+                <td id="sun">일</td>
+                <td>월</td>
+                <td>화</td>
+                <td>수</td>
+                <td>목</td>
+                <td>금</td>
+                <td id="sat">토</td>
+            </tr>
+        </table>
+        <br>
+        <script>
+            buildCalendar();
+        </script>
+    </form>
+
     <div id="right_box">
-        <form>
-            <p><input type="date" id='currentDate'></p>
-            <p><button id="pink_btn" onclick="location.href=''">예약</button></p>
-        </form>
+        <p><input type="date" id="currentDate"></p>
+        <p><button id="pink_btn" onclick="location.href=''">예약</button></p>
     </div>
+    
 </body>
