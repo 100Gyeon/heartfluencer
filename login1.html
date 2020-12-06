@@ -7,6 +7,7 @@
     <style>
         @import url(login.css);
     </style>
+    <script src="loginCheck.js"></script>
 </head>
 <body>
     <img src="media/logo.png" alt="로고"></img>
@@ -22,15 +23,12 @@
                 <input type="password" name="pw_input" id="textfield1" size="24"/>
             </label>
             <br><br>
-            <lavel id = "label1">
-                <input type="submit" value="회원 접속">
-            </lavel>
+            <button id="" onclick="CheckLoginInput()">회원접속</button>
+            <br><br>
+            <hr>
             <br>
+            <button type="submit" id="together" onclick="location.href='paymentCheck.html'">비회원접속</button>
             <br>
-            <lavel id = "label1">
-                <input type="submit" value="비회원 접속"> 
-                <br>
-            </lavel>
         </form>
     </div>
 </body>
