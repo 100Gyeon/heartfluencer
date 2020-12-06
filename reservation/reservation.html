@@ -9,6 +9,7 @@
         @import url(reservation.css);
     </style>
     <script src="/dateCheck.js"></script>
+    <script src="submitChoice.js"></script>
 </head>
 
 <body>
@@ -40,14 +41,14 @@
         <div id="clock"></div><br />
         <br>
         <h1>메뉴 고르기</h1><br>
-        <select name="menu_list">
-            <option value="default" selected="selected">(메뉴 선택)</option>
-            <option value="menu1">차돌 매콤 크림파스타</option>
-            <option value="menu2">간장 치킨 파스타</option>
-            <option value="menu3">푸타네스카 파스타</option>
-            <option value="menu4">베이컨 크림 파스타</option>
+        <select id="menu_list" onchange="menuChoice()">
+            <option value="">(메뉴 선택)</option>
+            <option>차돌 매콤 크림파스타</option>
+            <option>간장 치킨 파스타</option>
+            <option>푸타네스카 파스타</option>
+            <option>베이컨 크림 파스타</option>
         </select>
-        <button id="orange_btn" onclick="location.href=''">선택</button>
+        <button id="orange_btn" onclick="orangeBtnClick()">선택</button>
     </div>
 
     <form>
@@ -72,8 +73,8 @@
     </form>
 
     <div id="right_box">
-        <p><input type="date" id="currentDate"></p>
-        <p><button id="pink_btn" onclick="location.href=''">예약</button></p>
+        <p><input type="date" id="current_date" onchange="dateChoice()"></p>
+        <p><button id="pink_btn" onclick="pinkBtnClick()">예약</button></p>
     </div>
-    
+
 </body>
