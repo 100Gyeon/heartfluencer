@@ -2,7 +2,7 @@ h2{
   padding-left: 3%;
 }
 ul{
-    list-style:none;
+  list-style:none;
 }
 .wrapper{
     display: flex;
@@ -10,8 +10,8 @@ ul{
     align-items: center;
 }
 .container{
-    width:60%;
-    height:100px;
+    width: 60%;
+    height: 100px;
     position: relative;
     background-color: rgb(255, 255, 112);
     border-radius: 50px;
@@ -25,18 +25,14 @@ ul{
     left:0;
 }
 .item{
-    width:100%;
-    height:200px;
+    width: 100%;
+    height: 200px;
     background-color: rgb(255, 255, 112);
     font-size: 20px;
     text-align: center;
-    border-style: outset;
 }
-.item:nth-child(2){
+.item:nth-child(2), .item:nth-child(3){
     background-color: rgb(255, 255, 112);
-}
-.item:nth-child(3){
-    background-color:rgb(255, 255, 112);
 }
 .item_link:link{
   text-decoration: none;
@@ -51,18 +47,7 @@ ul{
     -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
     transition: all 0.25s cubic-bezier(1, .01, .32, 1);
 }
-
-#second_ad{
-  background: rgb(255, 255, 112);
-  width: 60%;
-  height: 80px;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 20px;
-  align-items: center;
-  border-style: outset;
-}
-#third_ad{
+#second_ad, #third_ad{
   background: rgb(255, 255, 112);
   width: 60%;
   height: 80px;
