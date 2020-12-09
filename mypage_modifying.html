@@ -9,11 +9,10 @@
         @import url(mypage.css);
     </style>
     <script src="uploadImg.js"></script>
+    <script src="customButton.js"></script>
     <script>
         
         function modifyUser() {
-
-
             document.getElementsByName("IDfield")[0].disabled = "true";
             document.getElementsByName("PWfield")[0].disabled = "true";
             document.getElementsByName("username")[0].disabled = "true";
@@ -27,12 +26,11 @@
             document.getElementsByName("card")[3].disabled = "true";
             document.getElementsById("upImgFile").stlye.dispaly = "none";
 
-        	var elem = document.getElementById("modify_btn");
-	        if (elem.value=="완료") 
-        	elem.value = "수정";
-        	else 
-  	        elem.value = "완료";
-
+            var elem = document.getElementById("modify_btn");
+            if (elem.value == "완료")
+                elem.value = "수정";
+            else
+                elem.value = "완료";
         }
     </script>
 </head>
@@ -81,7 +79,6 @@
             <input type="text" name="card" id="textfield3" maxlength="4" value="6666"/>
             <input type="file" id="real_btn" accept="image/png, image/jpeg" hidden="hidden">
             <button type="button" id="custom_btn">사진 첨부</button>
-            <script src="customButton.js"></script>
         </span>
         <hr>
         <input type ="button" id="modify_btn" onclick='modifyUser()' value = "완료"/>
