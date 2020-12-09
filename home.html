@@ -34,7 +34,7 @@
     <h2>선한 영향력 매장 찾기</h2>
     <div id="search">
         <div id="select">
-            <select id="city" title="검색 필드 선택" onchange="changeList()">
+            <select id="city" title="검색 필드 선택" onchange="chooseOptions()">
                 <option value="*">시/도</option>
                 <option value="1">서울특별시</li>
                 <option value="2">경기도</li>
@@ -55,15 +55,15 @@
                 <option value="17">제주특별자치도</li>
             </select>
         </div>
-        <input type="text" id="word" placeholder=" 지역 또는 매장명을 입력하세요">
-        <a href="#"><img id="button" src="media/search.png"></a>
+        <input type="text" id="word" placeholder=" 매장명을 입력하세요">
+        <input type="image" id="button" src="media/search.png" onclick="searchText()">
     </div>
     <br>
     <hr>
     <br>
     <table>
         <tbody>
-            <tr>
+            <tr class="tr1">
                 <td class="td1">
                     <div>
                         <img id="ic_shop" src="media/restaurant.png">
@@ -82,12 +82,12 @@
                 </td>
                 <td class="td3"><img src="media/real_pasta.png"></td>
             </tr>
-            <tr>
+            <tr class="tr2">
                 <td class="td1">&nbsp;</td>
                 <td class="td2">&nbsp;</td>
                 <td class="td3">&nbsp;</td>
             </tr>
-            <tr>
+            <tr class="tr3">
                 <td class="td1">
                     <div>
                         <img id="ic_shop" src="media/beauty_salon.png">
@@ -106,12 +106,12 @@
                 </td>
                 <td class="td3"><img src="media/hair_shop.jpg"></td>
             </tr>
-            <tr>
+            <tr class="tr4">
                 <td class="td1">&nbsp;</td>
                 <td class="td2">&nbsp;</td>
                 <td class="td3">&nbsp;</td>
             </tr>
-            <tr>
+            <tr class="tr5">
                 <td class="td1">
                     <div>
                         <img id="ic_shop" src="media/restaurant.png">
@@ -136,8 +136,8 @@
 
     <div class="pagination">
         <div>
-            <a href="home.html" class="prev">&#60;</a>
-            <a href="home.html" class="cur" style="background-color: rgb(191, 240, 95);">1</a>
+            <a href="/pagination/page_1.html" class="prev">&#60;</a>
+            <a href="/pagination/page_1.html" class="cur" style="background-color: rgb(191, 240, 95);">1</a>
             <a href="/pagination/page_2.html">2</a>
             <a href="/pagination/page_3.html">3</a>
             <a href="/pagination/page_4.html">4</a>

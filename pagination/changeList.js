@@ -1,8 +1,8 @@
-function changeList() {
+function chooseOptions() {
     var city = document.getElementById("city");
     var idx = city.selectedIndex;
     if (city.options[idx].value == "1") {
-        location.href = "/home.html";
+        location.href = "page_1.html";
     }
     else if (city.options[idx].value == "2") {
         location.href = "page_2.html";
@@ -16,4 +16,37 @@ function changeList() {
     else if (city.options[idx].value == "5") {
         location.href = "page_5.html";
     }
+}
+
+function searchText() {
+    var word = document.getElementById("word").value;
+    var tr1 = document.querySelector(".tr1");
+    var tr2 = document.querySelector(".tr2");
+    var tr3 = document.querySelector(".tr3");
+    var tr4 = document.querySelector(".tr4");
+    var tr5 = document.querySelector(".tr5");
+    var pages = document.querySelector(".pagination");
+
+    if (word.includes("리얼파스타")) {
+        tr1.style.display = "block";
+        tr2.style.display = "none";
+        tr3.style.display = "none";
+        tr4.style.display = "none";
+        tr5.style.display = "none";
+    }
+    else if (word.includes("오래가는 헤어샵")) {
+        tr1.style.display = "none";
+        tr2.style.display = "none";
+        tr3.style.display = "block";
+        tr4.style.display = "none";
+        tr5.style.display = "none";
+    }
+    else if (word.includes("착한초밥")) {
+        tr1.style.display = "none";
+        tr2.style.display = "none";
+        tr3.style.display = "none";
+        tr4.style.display = "none";
+        tr5.style.display = "block";
+    }
+    pages.style.display = "none";
 }
