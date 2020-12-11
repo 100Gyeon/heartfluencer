@@ -28,7 +28,6 @@ function CheckLoginInput()
         return false;
     }
 
-    document.loginform.setAttribute( "action", "home.html"  ); //진입하면 상단 사용자 로그아웃 표시로 바꿔야 함
-    document.loginform.submit();
+    document.loginform.setAttribute( "action", "home.html"  ); 
 
 }
