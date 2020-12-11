@@ -1,4 +1,4 @@
-h1{
+h1 {
     padding-left: 3%;
 }
 
@@ -7,34 +7,34 @@ p {
     font-size: 17px;
 }
 
-#since{
+#since {
     text-align: right;
-    padding-right: 10%;
+    padding-right: 5%;
     color: indianred;
     font-weight : bold;
     font-size: larger;
 }
 
-#CEO{
+#CEO {
     font-weight : bold;
     text-align: right;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
-#thanks{
+#thanks {
     font-weight : bold;
     font-size: larger;   
     padding-left: 3%;
 }
 
-#to{
+#to {
     font-weight : bold;
     font-size: larger;
     color: lightseagreen;
     padding-left: 3%;
 }
 
-#ssu{
+#ssu {
     margin-left : 120px;
     margin-right : 20px;
     width : 140px;
@@ -42,7 +42,7 @@ p {
     vertical-align: middle;
 }
 
-#gov{
+#gov {
     margin-left : 20px;
     margin-right : 20px;
     width : 120px;
