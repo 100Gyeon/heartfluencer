@@ -17,6 +17,7 @@ ul{
     border-radius: 50px;
     overflow: hidden;
     border-style: outset;
+
 }
 .slider{
     display: flex;
@@ -30,6 +31,7 @@ ul{
     background-color: rgb(255, 255, 112);
     font-size: 20px;
     text-align: center;
+    align-items: center;
 }
 .item:nth-child(2), .item:nth-child(3){
     background-color: rgb(255, 255, 112);
