@@ -27,21 +27,24 @@ function searchText() {
     var tr5 = document.querySelector(".tr5");
     var pages = document.querySelector(".pagination");
 
-    if (word.includes("리얼파스타")) {
+    if (word.includes("리얼파스타") || word.includes("교동짬뽕") 
+        || word.includes("카페요일") || word.includes("기와집갈비") || word.includes("고고라멘")) {
         tr1.style.display = "block";
         tr2.style.display = "none";
         tr3.style.display = "none";
         tr4.style.display = "none";
         tr5.style.display = "none";
     }
-    else if (word.includes("오래가는 헤어샵")) {
+    else if (word.includes("오래가는 헤어샵") || word.includes("추오정 남원추어탕")
+    || word.includes("커피온리") || word.includes("화요일케이크") || word.includes("더치앤빈")) {
         tr1.style.display = "none";
         tr2.style.display = "none";
         tr3.style.display = "block";
         tr4.style.display = "none";
         tr5.style.display = "none";
     }
-    else if (word.includes("착한초밥")) {
+    else if (word.includes("착한초밥") || word.includes("예만두")
+    || word.includes("장금수부대찌개") || word.includes("찬우식당") || word.includes("싸움의고수")) {
         tr1.style.display = "none";
         tr2.style.display = "none";
         tr3.style.display = "none";
