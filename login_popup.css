@@ -19,7 +19,7 @@ body{
 
 #go_login_btn {
     align-items: center;
-    background-color:122, 204, 46;
+    background-color: rgb(122, 204, 46);
     color: white;
     padding: 10px 20px;
     text-align: center;
