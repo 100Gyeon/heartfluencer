@@ -1,12 +1,12 @@
 body{
     margin-top: 20px;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(228, 228, 228);
     text-align : center;
 }
 
 #cancel_btn {
     align-items: center;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(153, 153, 153);
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -19,7 +19,20 @@ body{
 
 #go_login_btn {
     align-items: center;
-    background-color:darkgreen;
+    background-color:122, 204, 46;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 17px;
+}
+
+#identify_btn {
+    align-items: center;
+    background-color: hotpink;
     color: white;
     padding: 10px 20px;
     text-align: center;

@@ -13,9 +13,7 @@
     <script>
         
         function modifyUser() {
-            document.getElementsByName("IDfield")[0].disabled = "true";
             document.getElementsByName("PWfield")[0].disabled = "true";
-            document.getElementsByName("username")[0].disabled = "true";
             document.getElementsByName("nickname")[0].disabled = "true";
             document.getElementsByName("mail")[0].disabled = "true";
             document.getElementsByName("ph")[0].disabled = "true";
@@ -58,7 +56,7 @@
             <img id="my_img" src="media/before_upload_img.png" ; width="200" ; height="200" ;><br>
             <input type="file" id="upImgFile" onChange="uploadImg();" accept="image/*"><br>
         <hr>
-        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" value = "heart"/>  | 
+        <span id = "label">ID</span> <input type="text" name="IDfield" id="textfield1" size="12" value = "heart" disabled=true/>  | 
         <span id = "label">PW</span> <input type="password" name="PWfield" id="textfield1" size="12" value = "1111"/>
         <br>
         <hr>
@@ -68,7 +66,7 @@
         <hr>
         <span id = "label">이메일</span> <input type="text" name="mail" id="textfield2" size="25" value = "heart@soongsil.ac.kr"/><br>
         <hr>
-        <span id = "label">휴대전화</span> <input type="text" name="ph" id="textfield2" size="25" value = "010-2020-1016"/><br>
+        <span id = "label">휴대전화</span> <input type="text" name="ph" id="textfield2" size="25" value = "010-2020-1016"/>        <button id = "identify">본인 인증</button>
         <hr>
         <span id = "label">주소</span> <input type="text" name="address" id="textfield2" size="25" value = "서울특별시 동작구 상도로"/><br>
         <hr>
