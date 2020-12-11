@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     width: 50%;
-    height: 410px;
+    height: 420px;
     padding: 20px;
     position: absolute;
     top: 45%;
@@ -31,7 +31,12 @@ img {
 .hide {
     display: inline;
 }
-
+.day {
+    position: absolute;
+    top: 100;
+    right: 40;
+    cursor: pointer;
+}
 @media screen and (min-width: 840px) {
     .popup_form {
         width: 30%;
