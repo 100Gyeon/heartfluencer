@@ -28,6 +28,7 @@
         </ul>
     </nav>
 
+    <div id = "left_box" style="position: relative">
     <div class="view_left">
         <!-- 1. 지도 노드 -->
         <div id="daumRoughmapContainer1605768034051" class="root_daum_roughmap root_daum_roughmap_landing"></div>
@@ -41,13 +42,14 @@
             new daum.roughmap.Lander({
                 "timestamp": "1605768034051",
                 "key": "2325q",
-                "mapWidth": "600",
+                "mapWidth": "450",
                 "mapHeight": "450"
             }).render();
         </script>
     </div>
+    </div>
 
-    <div class="view_right">
+    <div id = "right_box">
         <div class="detail_info">
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <h2>리얼파스타 (망원점)</h2>
@@ -90,8 +92,8 @@
                 <button id="back_btn" onclick="location.href='/home.html'">&#60; 돌아가기</button>
                 <button id="reserve_btn" onclick="location.href='/reservation/reservation.html'">예약하기 &#62;</button>
             </div>
-        </div>
     </div>
+</div>
 </body>
 
 </html>
