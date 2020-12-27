@@ -19,4 +19,4 @@
 ![problem](https://user-images.githubusercontent.com/58380158/103169524-c0587080-487f-11eb-84bb-2afa68663804.JPG)
 
 ## 3. 실행 화면 <br>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/58380158/103172633-25b85b80-4898-11eb-9ecc-fdfedf184cec.gif)
+![project_gif](https://user-images.githubusercontent.com/58380158/103172785-492fd600-4899-11eb-8004-670351ee8b9e.gif)
