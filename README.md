@@ -17,3 +17,6 @@
 한국결식아동청소년지원협회 사이트에 급식카드 소지 아동/청소년을 후원해주는<br>
 업체 리스트가 있긴 하지만, 아래와 같은 문제점 때문에 아이들이 사용하기 불편하다.<br>
 ![problem](https://user-images.githubusercontent.com/58380158/103169524-c0587080-487f-11eb-84bb-2afa68663804.JPG)
+
+## 3. 실행 화면 <br>
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/58380158/103172633-25b85b80-4898-11eb-9ecc-fdfedf184cec.gif)
