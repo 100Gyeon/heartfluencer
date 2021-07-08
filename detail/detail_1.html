@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -17,18 +18,17 @@
     </a>
     <span id="login"><a href="/mypage.html">김하트 님</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
-    <span id="join"><a href="/login2.html">로그아웃</a></span>
+    <span id="join"><a href="/logout.html">로그아웃</a></span>
     <nav id="menubar">
         <ul>
             <li><a href="/home.html" style="color: darkgreen;">홈</a></li>
-            <li><a href="/enterprise.html">사업소개</a></li>
-            <li><a href="/funding.html">펀딩</a></li>
-            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/intro/intro.html">소개</a></li>
+            <li><a href="/sponsor/sponsor.html">후원</a></li>
+            <li><a href="/wish/wish.html">이 메뉴 원해요!</a></li>
             <li><a href="/mypage.html">마이페이지</a></li>
         </ul>
     </nav>
 
-    <div id = "left_box" style="position: relative">
     <div class="view_left">
         <!-- 1. 지도 노드 -->
         <div id="daumRoughmapContainer1605768034051" class="root_daum_roughmap root_daum_roughmap_landing"></div>
@@ -42,14 +42,13 @@
             new daum.roughmap.Lander({
                 "timestamp": "1605768034051",
                 "key": "2325q",
-                "mapWidth": "450",
+                "mapWidth": "600",
                 "mapHeight": "450"
             }).render();
         </script>
     </div>
-    </div>
 
-    <div id = "right_box">
+    <div class="view_right">
         <div class="detail_info">
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <h2>리얼파스타 (망원점)</h2>
@@ -92,8 +91,8 @@
                 <button id="back_btn" onclick="location.href='/home.html'">&#60; 돌아가기</button>
                 <button id="reserve_btn" onclick="location.href='/reservation/reservation.html'">예약하기 &#62;</button>
             </div>
+        </div>
     </div>
-</div>
 </body>
 
 </html>

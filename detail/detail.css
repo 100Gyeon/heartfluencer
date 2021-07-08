@@ -1,16 +1,19 @@
-#left_box{
-    position: absolute;
-    top: 10%;
-    margin-top: 100px;
-    margin-left: 100px;
+.view_left, .view_right {
+    float: none;
+    width: 100%;
+    overflow: hidden;
 }
 
-#right_box {
-    position: absolute;
-    top: 10%;
-    right: 240px;
-    margin-top: 40px;
-    padding:40px;
+.view_left {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.view_right {
+    float: right;
+    width: 50%;
+    position: relative;
 }
 
 .detail_info span {
