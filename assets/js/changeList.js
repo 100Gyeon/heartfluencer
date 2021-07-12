@@ -1,6 +1,6 @@
 function chooseOptions() {
-    var city = document.getElementById("city");
-    var idx = city.selectedIndex;
+    const city = document.getElementById("city");
+    const idx = city.selectedIndex;
     if (city.options[idx].value == "1") {
         location.href = "../../pages/pagination/page_1.html";
     }
@@ -19,13 +19,13 @@ function chooseOptions() {
 }
 
 function searchText() {
-    var word = document.getElementById("word").value;
-    var tr1 = document.querySelector(".tr1");
-    var tr2 = document.querySelector(".tr2");
-    var tr3 = document.querySelector(".tr3");
-    var tr4 = document.querySelector(".tr4");
-    var tr5 = document.querySelector(".tr5");
-    var pages = document.querySelector(".pagination");
+    const word = document.getElementById("word").value;
+    const tr1 = document.querySelector(".tr1");
+    const tr2 = document.querySelector(".tr2");
+    const tr3 = document.querySelector(".tr3");
+    const tr4 = document.querySelector(".tr4");
+    const tr5 = document.querySelector(".tr5");
+    const pages = document.querySelector(".pagination");
 
     if (word.includes("리얼파스타")) {
         tr1.style.display = "block";

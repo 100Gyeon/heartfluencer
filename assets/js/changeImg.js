@@ -1,6 +1,6 @@
-var cnt1 = 1;
-var cnt2 = 1;
-var cnt3 = 1;
+let cnt1 = 1;
+let cnt2 = 1;
+let cnt3 = 1;
 
 function changeImg1(obj) {
     if (cnt1 % 2 == 1) {
