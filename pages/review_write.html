@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/review_write.css">
+    <link rel="stylesheet" href="../assets/css/star_rating.css">
+    <script src="../assets/js/starRating.js"></script>
+    <script src="../assets/js/alertDialog.js"></script>
+</head>
+
+<body>
+    <a class="header" href="/home.html">
+        <img id="main_logo" src="../assets/images/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="/mypage.html">김하트 님</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="/login2.html">로그아웃</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="/home.html" style="color: darkgreen;">홈</a></li>
+            <li><a href="/enterprise.html">사업소개</a></li>
+            <li><a href="/funding.html">펀딩</a></li>
+            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+    <div class="box">
+        <div class="space">
+            <br>
+            <h2>리뷰 남기기</h2>
+            별점 : 
+            <div class="wrap">
+                <form name="reviewform" class="reviewform" method="post" action="/save">
+                    <div class="review_rating">
+                        <div class="rating">
+                            <input type="checkbox" name="rating" id="rating1" value="1" class="rate_radio" title="1점">
+                            <label for="rating1"></label>
+                            <input type="checkbox" name="rating" id="rating2" value="2" class="rate_radio" title="2점">
+                            <label for="rating2"></label>
+                            <input type="checkbox" name="rating" id="rating3" value="3" class="rate_radio" title="3점">
+                            <label for="rating3"></label>
+                            <input type="checkbox" name="rating" id="rating4" value="4" class="rate_radio" title="4점">
+                            <label for="rating4"></label>
+                            <input type="checkbox" name="rating" id="rating5" value="5" class="rate_radio" title="5점">
+                            <label for="rating5"></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <form>
+                맛 :
+                <label><input type="checkbox" name="taste" value="맛있어요"> 맛있어요</label>
+                <label><input type="checkbox" name="taste" value="괜찮아요"> 괜찮아요</label>
+                <label><input type="checkbox" name="taste" value="맛없어요"> 맛없어요</label>
+            </form>
+            <form>
+                양 :
+                <label><input type="checkbox" name="amount" value="양 많아요"> 양 많아요</label>
+                <label><input type="checkbox" name="amount" value="양 적당해요"> 양 적당해요</label>
+                <label><input type="checkbox" name="amount" value="양 적어요"> 양 적어요</label>
+            </form>
+            <form>
+                서비스 :
+                <label><input type="checkbox" name="service" value="친절해요"> 친절해요</label>
+                <label><input type="checkbox" name="service" value="불친절해요"> 불친절해요</label>
+            </form>
+            <form>
+                메뉴 :
+                <label><input type="checkbox" name="diversity" value="메뉴 다양해요"> 메뉴 다양해요</label>
+                <label><input type="checkbox" name="diversity" value="메뉴 적당해요"> 메뉴 적당해요</label>
+                <label><input type="checkbox" name="diversity" value="메뉴 부족해요"> 메뉴 부족해요</label>
+            </form>
+            사진 : <input type="file" accept="image/png, image/jpeg">
+            <form onsubmit="return false;">
+                설명 :
+                <label><input type="text" id="explain"></label>
+            </form>
+            <br>
+            <div class="btn">
+                <input type="submit" id="yes_btn" onclick="completeDialog()" value="완료"></button>
+                <button id="no_btn" onclick="cancelDialog()">취소</button>
+            </div>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>

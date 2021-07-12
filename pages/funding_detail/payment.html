@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartfluencer</title>
+    <link rel="stylesheet" href="../../assets/css/menu.css">
+    <link rel="stylesheet" href="../../assets/css/category.css">
+    <link rel="stylesheet" href="../../assets/css/category_detail.css">
+    <link rel="stylesheet" href="../../assets/css/payment.css">
+    <script src="../../assets/js/payment.js"></script>
+</head>
+<body>
+    <a class="header" href="../home.html">
+        <img id="main_logo" src="../../assets/images/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="/mypage.html">김하트 님</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="/login2.html">로그아웃</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="/home.html">홈</a></li>
+            <li><a href="/enterprise.html">사업소개</a></li>
+            <li><a href="/funding.html" style="color: darkgreen;">펀딩</a></li>
+            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+    <p id="funding_title"><strong>Funding for us</strong></p>
+    <nav id="funding_category">
+        <ul>
+            <li id="support"><a href="support.html" target="_self">후원</a></li>
+            <li id="today_store"><a href="today_store.html" target="_self">오늘의 가게</a></li>
+            <li id="support_news"><a href="support_news.html" target="_self">후원소식</a></li>
+            <li id="rank"><a href="rank.html" target="_self">착한가게</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <br>
+    <h3>펀딩하기 ------------------------------------------------------------------------------------------------------</h3>
+    <h2>김하트님, 펀딩에 함께해 주셔서 감사합니다. </h2>
+    <div id="store">
+        <span class="choice">펀딩 가게 선택</span>
+        <form>
+            <select>
+                <option value="1">냠냠 베이커리</option>
+                <option value="2">초밥 좋은날</option>
+                <option value="3">마마 떡볶이</option>
+            </select>
+        </form>
+    </div>
+    <img src="../../assets/images/plus.png" id="plus">
+    <div id="money">
+        <span class="choice">펀딩 금액</span>
+        <form>
+            <select>
+                <option value="1">3만원</option>
+                <option value="2">5만원</option>
+                <option value="3">10만원</option>
+            </select>
+        </form>
+    </div>
+    <img id="equal" src="../../assets/images/equal.png">
+    <img id="heart" src="../../assets/images/heart.png">
+    <h4>개인정보 수집/제공 동의 및 기부금 영수증 신청</h4>
+    <form id="info">
+        <label><input type="radio" name="agreement" value="yes"> 동의</label>
+        <label><input type="radio" name="agreement" value="no"> 동의하지 않음</label>
+        <br><br>
+        기부자명 <input type="text" value="" id="name"><br><br>
+        주민등록번호 <input type="text" value="" id="num" maxlength="6"> - <input type="password" value="" id="num" maxlength="7"><br><br>
+        주소 <input type="text" value="" id="addr" placeholder="도로명주소로 작성해 주세요."><br><br>
+        후원 계좌
+        <select id="bank">
+            <option value="*">은행 선택</option>
+            <option value="NH농협">NH농협</option>
+            <option value="KB국민">KB국민</option>
+            <option value="신한">신한</option>
+            <option value="우리">우리</option>
+            <option value="하나">하나</option>
+            <option value="신협">신협</option>
+            <option value="새마을">새마을</option>
+        </select>
+        <input type="text" value="" id="account"><br><br>
+    </form>
+    <form id="check">
+        다음 내용을 확인했습니다. <input type="checkbox" value="confirm">
+    </form>
+    <button type="button" id="together" onclick="location.href='paymentCheck.html'">펀딩에 함께 하겠습니다.</button>
+</body>
+</html>

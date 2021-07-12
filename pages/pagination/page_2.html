@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <script src="../../assets/js/changeImg.js"></script>
+    <script src="../../assets/js/changeList.js"></script>
+</head>
+
+<body>
+    <a class="header" href="/home.html">
+        <img id="main_logo" src="../assets/images/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="/mypage.html">김하트 님</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="/login2.html">로그아웃</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="/home.html" style="color: darkgreen;">홈</a></li>
+            <li><a href="/enterprise.html">사업소개</a></li>
+            <li><a href="/funding.html">펀딩</a></li>
+            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+    <h2>선한 영향력 매장 찾기</h2>
+    <div id="search">
+        <div id="select">
+            <select id="city" title="검색 필드 선택" onchange="chooseOptions()">
+                <option value="*">시/도</option>
+                <option value="1">서울특별시</li>
+                <option value="2">경기도</li>
+                <option value="3">인천광역시</li>
+                <option value="4">강원도</li>
+                <option value="5">충청북도</li>
+                <option value="6">충청남도</li>
+                <option value="7">대전광역시</li>
+                <option value="8">세종특별자치시</li>
+                <option value="9">광주광역시</li>
+                <option value="10">전라북도</li>
+                <option value="11">전라남도</li>
+                <option value="12">경상북도</li>
+                <option value="13">경상남도</li>
+                <option value="14">대구광역시</li>
+                <option value="15">부산광역시</li>
+                <option value="16">울산광역시</li>
+                <option value="17">제주특별자치도</li>
+            </select>
+        </div>
+        <input type="text" id="word" placeholder=" 매장명을 입력하세요">
+        <input type="image" id="button" src="../assets/images/search.png" onclick="searchText()">
+    </div>
+    <br>
+    <hr>
+    <br>
+    <table>
+        <tbody>
+            <tr class="tr1">
+                <td class="td1">
+                    <div>
+                        <img id="ic_shop" src="../assets/images/restaurant.png">
+                        <h2>교동짬뽕 병점점</h2>
+                        <p><strong>후원안내 : 카드소지자 + 동반 1인 전메뉴 제공</strong></p>
+                        <p>주소 : 경기도 화성시 경기대로 1027</p>
+                        <p>전화번호 : 031-221-8978</p>
+                    </div>
+                </td>
+                <td class="td2">
+                    <div>
+                        <input id="empty" type="image" src="../assets/images/empty_heart.png" alt="관심 매장 버튼" onclick="changeImg1(this)"><br>
+                        <button id="more" onclick="location.href='/detail/detail_4.html'">상세보기</button><br>
+                        <button id="review" onclick="location.href=''">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
+                    </div>
+                </td>
+                <td class="td3"><img src="../assets/images/page2_1.jpg"></td>
+            </tr>
+            <tr class="tr2">
+                <td class="td1">&nbsp;</td>
+                <td class="td2">&nbsp;</td>
+                <td class="td3">&nbsp;</td>
+            </tr>
+            <tr class="tr3">
+                <td class="td1">
+                    <div>
+                        <img id="ic_shop" src="../assets/images/restaurant.png">
+                        <h2>추오정 남원추어탕</h2>
+                        <p><strong>후원안내 : 카드소지자 본인만 전메뉴 무상제공</strong></p>
+                        <p>주소 : 경기도 남양주시 진접읍 진건오남로 1029</p>
+                        <p>전화번호 : 031-575-3266</p>
+                    </div>
+                </td>
+                <td class="td2">
+                    <div>
+                        <input id="empty" type="image" src="../assets/images/empty_heart.png" alt="관심 매장 버튼" onclick="changeImg2(this)"><br>
+                        <button id="more" onclick="location.href='/detail/detail_5.html'">상세보기</button><br>
+                        <button id="review" onclick="location.href=''">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
+                    </div>
+                </td>
+                <td class="td3"><img src="../assets/images/page2_2.jpeg"></td>
+            </tr>
+            <tr class="tr4">
+                <td class="td1">&nbsp;</td>
+                <td class="td2">&nbsp;</td>
+                <td class="td3">&nbsp;</td>
+            </tr>
+            <tr class="tr5">
+                <td class="td1">
+                    <div>
+                        <img id="ic_shop" src="../assets/images/restaurant.png">
+                        <h2>예만두</h2>
+                        <p><strong>후원안내 : 카드소지자 + 동반 2인 전메뉴 제공</strong></p>
+                        <p>주소 : 경기도 평택시 포승읍 여술2길 15</p>
+                        <p>전화번호 : 031-682-5869</p>
+                    </div>
+                </td>
+                <td class="td2">
+                    <div>
+                        <input id="empty" type="image" src="../assets/images/empty_heart.png" alt="관심 매장 버튼" onclick="changeImg3(this)"><br>
+                        <button id="more" onclick="location.href='/detail/detail_6.html'">상세보기</button><br>
+                        <button id="review" onclick="location.href=''">&nbsp;&nbsp;&nbsp;리뷰&nbsp;&nbsp;&nbsp;</button>
+                    </div>
+                </td>
+                <td class="td3"><img src="../assets/images/page2_3.jpg"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <div class="pagination">
+        <div>
+            <a href="page_1.html" class="prev">&#60;</a>
+            <a href="page_1.html">1</a>
+            <a href="page_2.html" class="cur" style="background-color: rgb(191, 240, 95);">2</a>
+            <a href="page_3.html">3</a>
+            <a href="page_4.html">4</a>
+            <a href="page_5.html">5</a>
+            <a href="page_3.html" class="next">&#62;</a>
+        </div>
+    </div>
+</body>
+
+</html>

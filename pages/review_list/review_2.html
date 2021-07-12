@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <style>
+        <link rel="stylesheet" href="../assets/css/menu.css">
+        @import url(review_list.css);
+    </style>
+</head>
+
+<body>
+    <a class="header" href="/home.html">
+        <img id="main_logo" src="../assets/images/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="/mypage.html">김하트 님</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="/login2.html">로그아웃</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="/home.html" style="color: darkgreen;">홈</a></li>
+            <li><a href="/enterprise.html">사업소개</a></li>
+            <li><a href="/funding.html">펀딩</a></li>
+            <li><a href="/wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="/mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+    <h2>리뷰</h2>
+    <h3>오래가는 헤어샵 전체 리뷰</h3>
+    <button id="write_btn" onclick="location.href='/review_write/review_write.html'">리뷰 남기기</button><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>평가</th>
+                <th>사진</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="evaluation">
+                    <span>
+                        <div>
+                            <img src="../assets/images/star_rating.png" class="star">
+                            <img src="../assets/images/star_rating.png" class="star">
+                            <img src="../assets/images/star_rating.png" class="star">
+                            <img src="../assets/images/star_rating.png" class="star">
+                            <img src="../assets/images/star_rating.png" class="star">
+                        </div>
+                        2020 - 11 - 15<br>
+                        <strong>친절해요, 시술 만족도 높아요</strong>
+                    </span>
+                </td>
+                <td class="picture"><img id="pic" src="../assets/images/boy.png"></td>
+                <td class='explanation'>상한 머리가 고민이라서 방문했어요 ㅠㅠ
+                    원장님께서 친절하게 시술해 주셔서 좋았습니다. </td>
+            </tr>
+            <tr>
+                <td class="evaluation">
+                    <div>
+                        <img src="../assets/images/star_rating.png" class="star">
+                        <img src="../assets/images/star_rating.png" class="star">
+                        <img src="../assets/images/star_rating.png" class="star">
+                        <img src="../assets/images/star_rating.png" class="star">
+                        <img src="../assets/images/star_rating.png" class="star">
+                    </div>
+                    2020 - 11 - 10<br>
+                    <strong>친절해요, 시술 만족도 높아요</strong>
+                </td>
+                <td class="picture"><img id="pic" src="../assets/images/girl.png"></td>
+                <td class='explanation'>여기서 단발로 잘랐는데 너무 마음에 들어요! 감사합니다🥰</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <link rel="stylesheet" href="../../assets/css/menu.css">
+    <link rel="stylesheet" href="../../assets/css/detail.css">
+</head>
+
+<body>
+    <a class="header" href="../home.html">
+        <img id="main_logo" src="../../assets/images/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="../mypage.html">김하트 님</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="../login2.html">로그아웃</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="../home.html" style="color: darkgreen;">홈</a></li>
+            <li><a href="../enterprise.html">소개</a></li>
+            <li><a href="../funding.html">후원</a></li>
+            <li><a href="../wish.html">이 메뉴 원해요!</a></li>
+            <li><a href="../mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+
+    <div id = "left_box" style="position: relative">
+    <div class="view_left">
+        <div id="daumRoughmapContainer1607185359203" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+        <script charset="UTF-8" class="daum_roughmap_loader_script"
+            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+        <script charset="UTF-8">
+            new daum.roughmap.Lander({
+                "timestamp": "1607185359203",
+                "key": "23bvu",
+                "mapWidth": "450",
+                "mapHeight": "450"
+            }).render();
+        </script>
+    </div>
+</div>
+<div id = "right_box">
+    <div class="view_right">
+        <div class="detail_info">
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <h2>장금수부대찌개 일신점</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="colored_cell">후원안내</td>
+                        <td class="white_cell">카드소지자 + 동반 2인 전메뉴 제공</td>
+                    </tr>
+                    <tr>
+                        <td class="colored_cell">주소</td>
+                        <td class="white_cell">인천 부평구 일신로14번길 34 1층</td>
+                    </tr>
+                    <tr>
+                        <td class="colored_cell">전화번호</td>
+                        <td class="white_cell">032-512-3085</td>
+                    </tr>
+                    <tr>
+                        <td class="colored_cell">영업시간</td>
+                        <td class="white_cell">매일 오전 11시 ~ 오후 10시</td>
+                    </tr>
+                    <tr>
+                        <td class="colored_cell">기타</td>
+                        <td class="white_cell">추석 휴무 있음</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>[ 대표 메뉴 ]</h3>
+            <div class="menu">
+                <figure>
+                    <img src="../assets/images/menu_9-1.jpeg">
+                    <figcaption>부대찌개</figcaption>
+                </figure>
+                <figure>
+                    <img src="../assets/images/menu_9-2.jpeg">
+                    <figcaption>부대전골</figcaption>
+                </figure>
+            </div>
+            <div class="btn">
+                <button id="back_btn" onclick="location.href='/pagination/page_3.html'">&#60; 돌아가기</button>
+                <button id="reserve_btn" onclick="location.href=''">예약하기 &#62;</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

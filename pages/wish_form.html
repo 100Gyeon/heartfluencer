@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heartfluencer</title>
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/wish_form.css">
+    <script src="../assets/js/checkWish.js"></script>
+</head>
+
+<body>
+    <a class="header" href="home.html">
+        <img id="main_logo" src="../assets/images/logo.png">
+        <span id="main_txt">Heartfluencer</span>
+    </a>
+    <span id="login"><a href="mypage.html">김하트 님</a></span>
+    <span id="bar">&nbsp;|&nbsp;</span>
+    <span id="join"><a href="login2.html">로그아웃</a></span>
+    <nav id="menubar">
+        <ul>
+            <li><a href="home.html">홈</a></li>
+            <li><a href="enterprise.html">사업소개</a></li>
+            <li><a href="funding.html">펀딩</a></li>
+            <li><a href="wish.html" style="color: darkgreen;">이 메뉴 원해요!</a></li>
+            <li><a href="mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+
+    <h1>이달의 메뉴 신청</h1>
+    <div id="left_box">
+        <h3>1월, 먹고 싶은 메뉴를 작성하세요!</h3>
+            모든 아동들이 작성한<br>
+            <strong>상위 3개</strong>의 메뉴가 선정됩니다.<br><br>
+            메뉴 작성은 <strong>1인당 2회씩</strong>만 가능합니다.<br>
+            메뉴는 운영진 내부 검토 후<br>
+            해당 월 투표에 올라가게 됩니다.<br>
+            <strong>진행되는 투표에 많은 참여 부탁드립니다 :)</strong> <br><br>
+
+            <span id = "label">희망 메뉴</span> <input type="text" name="food" id="textfield" size="25" placeholder = "예시) 단호박죽"/>
+            <br>
+            <br>
+            <span id = "label">거주 지역</span> <input type="text" name="region" id="textfield" size="25" placeholder = "예시) 서울"/><br>
+            <br>
+            <br>
+            <button id="green_btn" onclick="window.open('login_popup2.html','new','resizable=no width=360 height=180, left=20,top=20');return false" >제출</button>
+    </div>
+
+    <div id="right_box">
+        <h3>현재 진행 중 메뉴 투표</h3>
+        <h2>*12월*</h2><br>
+        <form name="menu">
+            <input type="radio" name="chk_menu" value="라자냐"> 라자냐
+            <progress value="6" max="10" id="prog_1"></progress><br><br>
+            <input type="radio" name="chk_menu" value="국물떡볶이"> 국물떡볶이
+            <progress value="3" max="10" id="prog_2"></progress><br><br>
+            <input type="radio" name="chk_menu" value="우동전골"> 우동전골
+            <progress value="1" max="10" id="prog_3"></progress><br><br><br>
+            <input type="button" id="vote_btn" value="투표하기" onclick="check()"></input>
+        </form>
+    </div>
+
+</body>
