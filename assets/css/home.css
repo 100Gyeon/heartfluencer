@@ -91,6 +91,7 @@ td.td2 button {
     margin-top: 10px;
     border-radius: 20px;
     border-color: rgb(214, 214, 214);
+    cursor: pointer;
 }
 td.td3 img {
     margin-left: 20px;

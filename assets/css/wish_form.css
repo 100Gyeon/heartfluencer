@@ -2,15 +2,7 @@ p{
     margin-left: 60px;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -95,4 +87,9 @@ progress[value]::-webkit-progress-value {
     border-radius: 5px;
     font-size: 17px;
     width: 230px;
+}
+
+#green_btn, #vote_btn {
+    border: 0;
+    cursor: pointer;
 }

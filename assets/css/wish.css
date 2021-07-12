@@ -33,6 +33,11 @@ h2 {
     font-size: 15px;
 }
 
+#green_btn, #pink_btn {
+    border: 0;
+    cursor: pointer;
+}
+
 #menu_info{
     width: 100%;
     table-layout: fixed;
