@@ -1,7 +1,7 @@
 window.onload = function () {
-    var realBtn = document.getElementById("real_btn");
-    var customBtn = document.getElementById("custom_btn");
-    customBtn.addEventListener("click", function () {
-        realBtn.click();
-    });
+  const realBtn = document.getElementById("real_btn");
+  const customBtn = document.getElementById("custom_btn");
+  customBtn.addEventListener("click", function () {
+    realBtn.click();
+  });
 }
