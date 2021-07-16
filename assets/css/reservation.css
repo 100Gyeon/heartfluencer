@@ -16,14 +16,14 @@ h2 {
     padding:10px;
 }
 
-#left_box {
+#left-box {
     position: absolute;
     top: 40%;
     left: 160px;
     padding:10px;
 }
 
-#right_box {
+#right-box {
     position: absolute;
     top: 50%;
     right: 190px;
@@ -65,7 +65,7 @@ td {
     font-weight: bold;
 }
 
-#green_btn {
+#green-btn {
     align-items: center;
     background-color: rgb(122, 204, 46);
     color: white;
@@ -76,7 +76,7 @@ td {
     font-size: 14px;
 }
 
-#orange_btn {
+#orange-btn {
     align-items: center;
     background-color: rgb(255, 145, 0);
     color: white;
@@ -91,7 +91,7 @@ td {
     margin-top: 150px;
 }
 
-#pink_btn {
+#pink-btn {
     margin-left: 30px;
     background-color: hotpink;
     color: white;
@@ -101,7 +101,7 @@ td {
     font-size: 15px;
 }
 
-#left_box > select{
+#left-box > select{
     background-color: white;
     border: 1px solid grey;
     border-radius: 10px;

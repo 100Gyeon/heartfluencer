@@ -7,7 +7,7 @@ h2 {
     text-align: center;
 }
 
-#green_btn {
+#green-btn {
     text-align: center;
     margin : auto;
     background-color: rgb(122, 204, 46);
@@ -20,7 +20,7 @@ h2 {
     font-size: 20px;
 }
 
-#pink_btn {
+#pink-btn {
     align-items: center;
     background-color: hotpink;
     color: white;
@@ -33,7 +33,7 @@ h2 {
     font-size: 15px;
 }
 
-#green_btn, #pink_btn {
+#green-btn, #pink-btn {
     border: 0;
     cursor: pointer;
 }

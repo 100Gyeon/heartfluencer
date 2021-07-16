@@ -1,12 +1,12 @@
 function CheckLoginInput() {
   if (document.loginform.id_input.value == "") {
-    alert("ID를 입력하세요");
+    alert("ID를 입력하세요.");
     document.loginform.id_input.focus();
     return false;
   }
 
   if (document.loginform.pw_input.value == "") {
-    alert("비밀번호를 입력하세요");
+    alert("비밀번호를 입력하세요.");
     document.loginform.pw_input.focus();
     return false;
   }

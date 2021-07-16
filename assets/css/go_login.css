@@ -30,7 +30,7 @@ img
      height:28px;
 }
 
-#orange_btn {
+#orange-btn {
     align-items: center;
     background-color: rgb(255, 145, 0);
     color: white;
@@ -40,5 +40,6 @@ img
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    border: 0;
     font-size: 16px;
 }

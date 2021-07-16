@@ -21,7 +21,7 @@
             document.getElementsByName("card")[3].disabled = "true";
             document.getElementsById("upImgFile").stlye.dispaly = "none";
 
-            const elem = document.getElementById("modify_btn");
+            const elem = document.getElementById("modify-btn");
             if (elem.value == "완료")
                 elem.value = "수정";
             else
@@ -32,12 +32,12 @@
 
 <body>
     <a class="header" href="home.html">
-        <img id="main_logo" src="../assets/images/logo.png">
-        <span id="main_txt">Heartfluencer</span>
+        <img id="main-logo" src="../assets/images/logo.png">
+        <span id="main-txt">Heartfluencer</span>
     </a>
     <span id="login"><a href="mypage.html">김하트 님</a></span>
     <span id="bar">&nbsp;|&nbsp;</span>
-    <span id="join"><a href="login2.html">로그아웃</a></span>
+    <span id="join"><a href="login.html">로그아웃</a></span>
     <nav id="menubar">
         <ul>
             <li><a href="home.html">홈</a></li>
@@ -72,11 +72,11 @@
                 <input type="text" name="card" id="textfield3" maxlength="4" value="8888"/>-
                 <input type="text" name="card" id="textfield3" maxlength="4" value="7777"/>-
                 <input type="text" name="card" id="textfield3" maxlength="4" value="6666"/>
-                <input type="file" id="real_btn" accept="image/png, image/jpeg" hidden="hidden">
+                <input type="file" id="real-btn" accept="image/png, image/jpeg" hidden="hidden">
                 <button type="button" id="custom_btn">사진 첨부</button>
             </span>
             <hr>
-            <input type ="button" id="modify_btn" onclick='modifyUser()' value = "완료"/>
+            <input type ="button" id="modify-btn" onclick='modifyUser()' value = "완료"/>
         </div>
     </div>
 </body>

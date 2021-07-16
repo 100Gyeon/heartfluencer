@@ -11,7 +11,7 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-#green_btn {
+#green-btn {
     align-items: center;
     margin-left: 240px;
     background-color: rgb(122, 204, 46);
@@ -28,7 +28,7 @@ h1, h2, h3 {
     height: 30px;
 }
 
-#left_box {
+#left-box {
     position: absolute;
     top: 30%;
     margin-top: 40px;
@@ -36,7 +36,7 @@ h1, h2, h3 {
     padding:10px;
 }
 
-#right_box {
+#right-box {
     position: absolute;
     top: 32%;
     right: 240px;
@@ -89,7 +89,7 @@ progress[value]::-webkit-progress-value {
     width: 230px;
 }
 
-#green_btn, #vote_btn {
+#green-btn, #vote_btn {
     border: 0;
     cursor: pointer;
 }

@@ -50,11 +50,11 @@ tr:nth-child(odd):hover {
     border : 3px solid rgb(65, 126, 30);
     box-shadow: 0 0 20px rgb(191, 240, 95);
 }
-#ic_shop {
+#ic-shop {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-top: 12px;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.75rem;
     margin-left: 30px;
     vertical-align: middle;
 }
@@ -101,8 +101,8 @@ td.td3 img {
 }
 #empty {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     margin-left: auto;
     margin-right: auto;
 }

@@ -4,7 +4,7 @@ body{
     text-align : center;
 }
 
-#cancel_btn {
+#cancel-btn {
     align-items: center;
     background-color: rgb(153, 153, 153);
     color: white;
@@ -17,7 +17,7 @@ body{
     font-size: 17px;
 }
 
-#go_login_btn {
+#go-login-btn {
     align-items: center;
     background-color: rgb(122, 204, 46);
     color: white;
@@ -30,7 +30,7 @@ body{
     font-size: 17px;
 }
 
-#identify_btn {
+#identify-btn {
     align-items: center;
     background-color: hotpink;
     color: white;

@@ -1,25 +1,25 @@
-.view_left, .view_right {
+.view-left, .view-right {
     float: none;
     width: 100%;
     overflow: hidden;
 }
 
-.view_left {
+.view-left {
     float: left;
     width: 50%;
     position: relative;
 }
 
-.view_right {
+.view-right {
     float: right;
     width: 50%;
     position: relative;
 }
 
-.detail_info span {
+.detail-info span {
     background-color: rgb(90, 202, 90);
 }
-.detail_info h2 {
+.detail-info h2 {
     display: inline-block;
     margin-left: 4px;
 }
@@ -33,17 +33,17 @@ td {
     border-bottom: 1px solid darkgrey;
     text-align: center;
 }
-.colored_cell{
+.colored-cell{
     background-color: rgb(191, 240, 95);
     text-align: left;
     padding-left: 10px;
     padding-right: 60px;
 }
-.white_cell {
+.white-cell {
     padding-left: 60px;
     padding-right: 60px;
 }
-.detail_info h3 {
+.detail-info h3 {
     margin: 0 auto;
     width: 20%;
 }
@@ -54,7 +54,7 @@ figure {
     display: inline-block;
     margin: 0px;
 }
-.detail_info img {
+.detail-info img {
     width: 170px;
     height: 170px;
 }
@@ -68,15 +68,16 @@ p {
 .btn {
     margin-left: 200px;
 }
-#back_btn, #reserve_btn {
+#back-btn, #reserve-btn {
     border-radius: 10px;
     border: 0;
     outline: 0;
     width: 100px;
     height: 25px;
     font-weight: bold;
+    cursor: pointer;
 }
-#reserve_btn {
+#reserve-btn {
     background-color: rgb(53, 197, 53);
     color: white;
 }

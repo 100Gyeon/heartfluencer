@@ -1,4 +1,4 @@
-.popup_form {
+.popup-form {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,14 +17,14 @@ img {
     margin: auto;
     width: 100%;
 }
-.close_btn {
+.close-btn {
     position: absolute;
     top: 0;
     right: 0;
     padding: 7px 9px;
     cursor: pointer;
 }
-.close_btn:hover {
+.close-btn:hover {
     color: #fff;
     background-color: rgb(74, 136, 24);
 }
@@ -37,8 +37,12 @@ img {
     right: 40;
     cursor: pointer;
 }
+.popup-check {
+    position: relative;
+    left: 45%;
+}
 @media screen and (min-width: 840px) {
-    .popup_form {
+    .popup-form {
         width: 30%;
     }
 }
