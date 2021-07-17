@@ -18,59 +18,29 @@ img
     padding: 70px;
 }
 
-#label1 {
-    font-size: 16px;
+.id-pw {
+    font-size: 1rem;
     font-weight: bold;
-    vertical-align: middle;
-    text-align: left;
+    margin-right: 1rem;
 }
 
-#label2 {
-    font-size: 16px;
-    font-weight: bold;
+#textfield {
+    width: 15rem;
+    height: 2.2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid;
 }
 
-#textfield1{
-     width:160px;
-     height:28px;
+.btn-set {
+    margin: 1.6rem 0;
 }
 
 #orange-btn {
-    align-items: center;
     background-color: rgb(255, 145, 0);
     color: white;
     padding: 10px 15px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
     border: 0;
-    font-size: 16px;
-}
-
-#green-btn {
-    align-items: center;
-    background-color: rgb(122, 204, 46);
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-size: 16px;
-}
-
-#white_btn {
-    align-items: center;
-    background-color : antiquewhite;
-    color: slategrey;
-    padding: 10px 15px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
 }

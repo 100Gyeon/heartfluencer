@@ -32,13 +32,15 @@
     <form name="loginform">
         <div id="go-login">
             <img src="../assets/images/circle_logo.png" alt="로고"></img>
-            <span id="label2">ID&nbsp;&nbsp;</span> <input type="text" name="id_input" id="textfield1" size="24" />
-            <br><br>
-            <span id="label2">PW&nbsp;</span> <input type="password" name="pw_input" id="textfield1" size="24" />
-            <br><br>
-            <button id="orange-btn" onclick="CheckLoginInput()">로그인</button>
-            <button id="orange-btn" onclick="location.href='sign_up.html'">회원가입</button>
-            <br><br>
+            <div>
+                <span class="id-pw">ID</span><input type="text" name="id_input" id="textfield" size="24" />
+                <br>
+                <span class="id-pw">PW</span><input type="password" name="pw_input" id="textfield" size="24" />
+            </div>
+            <div class="btn-set">
+                <button id="orange-btn" onclick="CheckLoginInput()">로그인</button>
+                <button id="orange-btn" onclick="location.href='sign_up.html'">회원가입</button>
+            </div>   
             <input type="checkbox" name="auto_login" value="auto_login" /> 자동로그인
         </div>
     </form>

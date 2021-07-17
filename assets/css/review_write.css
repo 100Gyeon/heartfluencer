@@ -1,10 +1,12 @@
-.box {
+.container {
+    width: 1000px;
+    margin: 0 auto;
     background-image: url('../images/review.jpg');
     background-size: 1000px 700px;
     background-repeat: no-repeat;
     background-position: top center;
 }
-.space {
+.container__items {
     margin: auto;
     width: 50%;
     line-height: 220%;
@@ -24,9 +26,9 @@ label, input {
 }
 .btn {
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: -1rem;
 }
-#yes_btn, #no_btn {
+#yes-btn, #no-btn {
     color: white;
     border: white;
     border-radius: 5px;
@@ -37,9 +39,9 @@ label, input {
     padding-bottom: 5px;
     margin: 5px;
 }
-#yes_btn {
+#yes-btn {
     background-color: rgb(54, 172, 54);
 }
-#no_btn {
+#no-btn {
     background-color: rgb(88, 88, 88);
 }
