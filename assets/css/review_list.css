@@ -3,21 +3,21 @@ h2 {
 }
 h3 {
     display: inline-block;
-    margin-left: 40px;
 }
-#write_btn {
+#write-btn {
     float: right;
-    margin-right: 40px;
     border: 0;
     outline: 0;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
 }
+.before-table, table {
+    width: 80%;
+    margin: 0 auto;
+}
 table {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
     border-collapse: collapse;
     border: 2px solid darkgrey;
     border-left-style: hidden;
