@@ -1,4 +1,4 @@
-#support_block
+#support-block
 {
     text-align: center;
 }
@@ -39,14 +39,14 @@
     font-size: 1.2rem;
 }
 
-#news_support
+#support-news
 {
     width: 70%;
     height: 100px;
     margin: auto;
     text-align: center;
 }
-#support_news_list_img
+#support-news-list-img
 {
     display: block;
     margin: auto;
@@ -56,28 +56,26 @@
     max-height: 450px;
     margin-left: 2rem;
 }
-#support_news_list
+#support-news-list
 {
     text-align: center;
     font-size: 1.3rem;
     word-break: keep-all;
 }
 
-#rank_table
+#rank-table
 {
-    width: 30%;
-    height: 200px;
     margin: auto;
-    text-align: center;
 }
-#rank_table > tbody > tr > td > img{
+#rank-table > tbody > tr > td > img{
     width: 260px;
     height: 160px;
+    margin-right: 1rem;
 }
-#rank_list
+#rank-list
 {
     text-align: left;
-    font-size: 13px;
+    font-size: 1rem;
 }
 #partner{
     text-align: right;
@@ -92,10 +90,10 @@
     padding-right: 3%;
     vertical-align: middle;
 }
-.funding_info {
+.funding-info {
     text-align: center;
 }
-h2.funding_info {
+h2.funding-info {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
