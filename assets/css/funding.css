@@ -1,4 +1,4 @@
-.wrapper, .container, #second_ad, #third_ad {
+.wrapper, .container, #second-ad, #third-ad {
   width: 40rem;
   margin: 0 auto;
 }
@@ -30,11 +30,11 @@ ul {
   margin-top: 10px;
   margin-left: -4%;
 }
-.item_link:link {
+.item-link:link {
   text-decoration: none;
   color: black;
 }
-.item_link:visited {
+.item-link:visited {
   text-decoration: none;
   color: black;
 }
@@ -43,16 +43,15 @@ ul {
   -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
   transition: all 0.25s cubic-bezier(1, .01, .32, 1);
 }
-#second_ad, #third_ad {
+#second-ad, #third-ad {
   background: rgb(255, 255, 112);
-  width: 50%;
   height: 5rem;
   border-radius: 50px;
   text-align: center;
   border-style: outset;
   margin-top: 20px;
 }
-.item_link:link, #second_ad, #third_ad {
+.item-link:link, #second-ad, #third-ad {
   font-weight: bold;
   font-size: 20px;
 }

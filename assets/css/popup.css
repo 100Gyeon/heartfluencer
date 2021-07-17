@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 50%;
+    width: 21%;
     height: 450px;
     padding: 20px;
     position: absolute;
@@ -41,9 +41,4 @@ img {
     position: relative;
     top: -1%;
     left: 35%;
-}
-@media screen and (min-width: 840px) {
-    .popup-form {
-        width: 33%;
-    }
 }

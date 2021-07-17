@@ -14,10 +14,12 @@
     font-size: 30px;
     color: hotpink;
 }
+.user-info {
+    float: right;
+    margin-right: 1rem;
+    margin-top: 30px;
+}
 #login a {
-    bottom: 30px;
-    margin-left: 750px;
-    position: relative;
     display: inline-block;
     color: black;
     text-decoration: none;
@@ -25,15 +27,11 @@
     font-size: 16px;
 }
 #bar {
-    bottom: 30px;
     display: inline-block;
-    position: relative;
     color: black;
     font-size: 16px;
 }
 #join a {
-    bottom: 30px;
-    position: relative;
     display: inline-block;
     color: black;
     text-decoration: none;
